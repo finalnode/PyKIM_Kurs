@@ -2,41 +2,133 @@
   "format": 1,
   "algorithm": "sha256",
   "files": {
-    "Aufgaben/imperativ/farben-melodie.md": {
+    "Aufgaben/backup/imperativ/farben-melodie.md": {
       "sha256": "0e214aa145f37995e9844890169d9d7f33afecbb4b9ee6b53c042b5da92a9ef3",
       "size": 376
     },
-    "Aufgaben/imperativ/interaktive-steuerung.md": {
+    "Aufgaben/backup/imperativ/interaktive-steuerung.md": {
       "sha256": "05ec898b687c3048812abeb4d24d5c7994ea99b26ad474458b9090bad337f3b3",
       "size": 311
     },
-    "Aufgaben/imperativ/punktlinie-8.md": {
+    "Aufgaben/backup/imperativ/punktlinie-8.md": {
       "sha256": "afbafcea9a821c0a3ecbea5b6e89dc4de2018e68c3f803a30246285f79db9da0",
       "size": 338
     },
-    "Aufgaben/imperativ/quadrat-5.md": {
+    "Aufgaben/backup/imperativ/quadrat-5.md": {
       "sha256": "ddec91279e2ee8edaa8b8ed7773cfc6864acb0691332a95a333d965d5816995f",
       "size": 305
     },
-    "Aufgaben/imperativ/rhythmus-motiv.md": {
+    "Aufgaben/backup/imperativ/rhythmus-motiv.md": {
       "sha256": "44abb8b3b322aac96bec803bfbfea5906f6b34ed3533e55fbdfdfa9b20fd7034",
       "size": 302
     },
-    "Aufgaben/imperativ/schachbrett-8.md": {
+    "Aufgaben/backup/imperativ/schachbrett-8.md": {
       "sha256": "4b8da5069fd8ec066cb6a0f56a8f2a35d8aaca28c63d2c385205100f8c3b7c7a",
       "size": 401
     },
-    "Aufgaben/imperativ/tonleiter-c-dur.md": {
+    "Aufgaben/backup/imperativ/tonleiter-c-dur.md": {
       "sha256": "8957ca17b4b816cfe3337dfceaa7b2904095be23b8af4c39fe6c210c18dbe78d",
       "size": 302
     },
-    "Aufgaben/imperativ/treppe-5.md": {
+    "Aufgaben/backup/imperativ/treppe-5.md": {
       "sha256": "6f1d2535cb7a76f2c42b24f4b0105edcaaaa77b89fc091866e8424d3ebae4e0b",
       "size": 304
     },
-    "Aufgaben/imperativ/vier-quadrate.md": {
+    "Aufgaben/backup/imperativ/vier-quadrate.md": {
       "sha256": "8cd74d7d9b1d52850d77db59c113818daf69f984ba08f61558b66909c38a0b0c",
       "size": 304
+    },
+    "Aufgaben/imperativ/01_erste_schritte_aufgaben.md": {
+      "sha256": "ad34833eac702b8e89df77220ba999941ff24294fab90ab26661501b9e656e2a",
+      "size": 1084
+    },
+    "Aufgaben/imperativ/02_zaehlschleifen_aufgaben.md": {
+      "sha256": "deec86d7f84cc0c6f392d0150b852236f68d9c3142b7438ee323334ba259b899",
+      "size": 854
+    },
+    "Aufgaben/imperativ/03_funktionen_aufgaben.md": {
+      "sha256": "7d9b3e6962691d9a59e00ad5f37f5f1608be673c406043d37fc1d0965fb9cef6",
+      "size": 643
+    },
+    "Aufgaben/imperativ/04_datentypen_aufgaben.md": {
+      "sha256": "1f9c76f36b29c59644913d661341844e56720b2b69c6d1c15759a5050dabaa25",
+      "size": 537
+    },
+    "Aufgaben/imperativ/05_variablen_aufgaben.md": {
+      "sha256": "aeb6d70ff0202e1ed7f1c69201424847c22dacefb4decf67e3314820371f35b0",
+      "size": 725
+    },
+    "Aufgaben/imperativ/06_parameter_aufgaben.md": {
+      "sha256": "58f307616cc91fead5a2cb8e7bdfb3a604c2d6ac941978a4c0ff73422f972edd",
+      "size": 542
+    },
+    "Aufgaben/imperativ/07_strings_aufgaben.md": {
+      "sha256": "4d0ec13780090e2f292737cb621159de4779b04ff933ce21a012ab3cac6a7fbf",
+      "size": 526
+    },
+    "Aufgaben/imperativ/08_listen_aufgaben.md": {
+      "sha256": "ccf842c41d26ba5a990a39024f8c0d2530eb1f2375979cf9a871459ccf56e5fc",
+      "size": 505
+    },
+    "Aufgaben/imperativ/09_verzweigungen_aufgaben.md": {
+      "sha256": "5a2ce10e0da30d6fc75125266f3a5292e8386b896391e022c34848a6b3b79b9f",
+      "size": 554
+    },
+    "Aufgaben/imperativ/10_komplexe_verzweigungen_aufgaben.md": {
+      "sha256": "e714b76f176959dc0f073db5d9e40ec5682e5f8a9e1df6372bf5ae5105b837d2",
+      "size": 793
+    },
+    "Aufgaben/imperativ/11_while_aufgaben.md": {
+      "sha256": "17c78ddbcfbe997502384c8c47362d1e975dd82d32133fac9521b7ea8a7751bc",
+      "size": 579
+    },
+    "Aufgaben/imperativ/12_2d_listen_aufgaben.md": {
+      "sha256": "b657a8e0e5a88eaac36867ab885cc40bf62a57e72daadcfb53f6e3e8202140a3",
+      "size": 581
+    },
+    "Aufgaben/imperativ/13_interaktiv_aufgaben.md": {
+      "sha256": "d505b1ea99988288f26e6c74a2c53a4e378143df5b82702cd0d59dcb28a1ab3c",
+      "size": 533
+    },
+    "Aufgaben/imperativ/14_projektauftrag.md": {
+      "sha256": "c1e14bb44f2422864f077db4839f10d2d9c96c42237a143445f7e6fdf0de0998",
+      "size": 1000
+    },
+    "Aufgaben/imperativ/farben-melodie.md": {
+      "sha256": "4c13e2cc05f44017c36e7d88ef75d54df08e865249eacb203fcffbf27e65f5a3",
+      "size": 187
+    },
+    "Aufgaben/imperativ/interaktive-steuerung.md": {
+      "sha256": "f2665b1f3f6d5bb8330158b080860edf9728ceec7b40d0231be2c643bb429b3f",
+      "size": 359
+    },
+    "Aufgaben/imperativ/punktlinie-8.md": {
+      "sha256": "95d598eb319b8991c0233d866915e10d97df045ce477f94601a6affc4112674f",
+      "size": 242
+    },
+    "Aufgaben/imperativ/quadrat-5.md": {
+      "sha256": "2fad872964e9442d3039002dbda6be8887930616496122c13cdb347a80d90eae",
+      "size": 313
+    },
+    "Aufgaben/imperativ/rhythmus-motiv.md": {
+      "sha256": "535eacda785946a9a130ee55c9ffbb20c48df43ed64f2f675469033f5862d070",
+      "size": 200
+    },
+    "Aufgaben/imperativ/schachbrett-8.md": {
+      "sha256": "4e13fbb37d59ddffc52e691dd0d08f20a5f3f950d423c2e7b5b6134f44b7d43f",
+      "size": 226
+    },
+    "Aufgaben/imperativ/tonleiter-c-dur.md": {
+      "sha256": "777be59618c601aa2b2fca5a7e78b40e2389b2941d35a4326b356b339694b2db",
+      "size": 172
+    },
+    "Aufgaben/imperativ/treppe-5.md": {
+      "sha256": "d8a97ba772bdde3dfcc3f09fba9d9c6272b6a83f337d3d1a0e3682aa4249a647",
+      "size": 188
+    },
+    "Aufgaben/imperativ/vier-quadrate.md": {
+      "sha256": "476807daf608aea9ba4b5a45df17654e0775c18e9acdef0753bfe05547db20b0",
+      "size": 204
     },
     "Aufgaben/oop/mehrere-pixel.md": {
       "sha256": "7614803c868ff383278298338bfa90433df02850d77b33c31cdd10fdd181176e",
@@ -50,73 +142,129 @@
       "sha256": "afd58b21c6ec9829403a587f2616efc5251fab675ea0f0478980f72adc2b892f",
       "size": 2604
     },
-    "Skripte/imperativ/01_erste_befehle.md": {
+    "Skripte/backup/imperativ/01_erste_befehle.md": {
       "sha256": "fc8019803f18d89b38a1cd07422aef7b0748990646a2b0066f303bced7e7c951",
       "size": 4185
     },
-    "Skripte/imperativ/01a_variablen.md": {
+    "Skripte/backup/imperativ/01a_variablen.md": {
       "sha256": "bd92252fa100865e2fba756ba7a0ae0d8dac754f0100885d98ed5a0e2bef6165",
       "size": 4456
     },
-    "Skripte/imperativ/01b_datentypen_und_operatoren.md": {
+    "Skripte/backup/imperativ/01b_datentypen_und_operatoren.md": {
       "sha256": "0871b7623eef4d82ed7e8a847e2eeca4dd12ddd23c8a2cd059d9f66345533dfe",
       "size": 5103
     },
-    "Skripte/imperativ/02_schleifen.md": {
+    "Skripte/backup/imperativ/02_schleifen.md": {
       "sha256": "5fea92f62564659a62415974815ab6c0577732631797f4e5c8b44072ab792a89",
       "size": 4454
     },
-    "Skripte/imperativ/02a_listen.md": {
+    "Skripte/backup/imperativ/02a_listen.md": {
       "sha256": "6a4c659ce9894fb24113db361c1db7788628a587481938e5372d415183ca9c18",
       "size": 4810
     },
-    "Skripte/imperativ/03_bedingungen.md": {
+    "Skripte/backup/imperativ/03_bedingungen.md": {
       "sha256": "246f04aacb82732d33fabe5f944aeedade9fccc05222156f3ea62ce6316a8efd",
       "size": 5999
     },
-    "Skripte/imperativ/04_funktionen.md": {
+    "Skripte/backup/imperativ/04_funktionen.md": {
       "sha256": "072ce8b773acfda8078c92b74465e1f4696470b35bcaf4f770ab8e7355f52553",
       "size": 4345
     },
-    "Skripte/imperativ/04a_funktionen_mit_parametern.md": {
+    "Skripte/backup/imperativ/04a_funktionen_mit_parametern.md": {
       "sha256": "f5b3078e65bb27e05cdcd20d183d779a31559fe2b3840f4afe6b883c771c8f74",
       "size": 4509
     },
-    "Skripte/imperativ/04b_while_schleifen.md": {
+    "Skripte/backup/imperativ/04b_while_schleifen.md": {
       "sha256": "8add8aa115270aa21f29f92bd8a467cd981bbbca6e3dc58b64d5c461daabeb6e",
       "size": 4524
     },
-    "Skripte/imperativ/04c_strings.md": {
+    "Skripte/backup/imperativ/04c_strings.md": {
       "sha256": "a74aafab4931230c35237f9259d334c9c57692e400a7229d37787ffa98561da8",
       "size": 5589
     },
-    "Skripte/imperativ/04d_zweidimensionale_listen.md": {
+    "Skripte/backup/imperativ/04d_zweidimensionale_listen.md": {
       "sha256": "9d74ff7a43b721ef59cdc78986eac3c9121c6ea3c58f1c9dde0e0046691cfffa",
       "size": 5548
     },
-    "Skripte/imperativ/04e_rekursion.md": {
+    "Skripte/backup/imperativ/04e_rekursion.md": {
       "sha256": "834541020141c21e1b4be2a1e2e94a32d164d1365c281d8ac4c2c64404da2f0d",
       "size": 4344
     },
-    "Skripte/imperativ/04f_dictionaries.md": {
+    "Skripte/backup/imperativ/04f_dictionaries.md": {
       "sha256": "621e88afa8bdc7f0a5f33627b9245f358b63ddc3d7321d7006d3deea98c7b26e",
       "size": 3986
     },
-    "Skripte/imperativ/04g_fehler_und_debugging.md": {
+    "Skripte/backup/imperativ/04g_fehler_und_debugging.md": {
       "sha256": "24118432845b8524db6399310742a0fb946d3dfabb83fc8723df30d70fc723f5",
       "size": 5795
     },
-    "Skripte/imperativ/05_interaktiv.md": {
+    "Skripte/backup/imperativ/05_interaktiv.md": {
       "sha256": "d852d4604765eb3143f9751fb157968ca23ae9ee02d384064359baa6bdcb240f",
       "size": 5899
     },
-    "Skripte/imperativ/05a_welt_anzeigen_und_pyxel.md": {
+    "Skripte/backup/imperativ/05a_welt_anzeigen_und_pyxel.md": {
       "sha256": "a697ef28c62c0366e5c4500d9fae9fea5031856a434ab9cd9842b176e0d13e71",
       "size": 6573
     },
-    "Skripte/imperativ/06_spielprojekt.md": {
+    "Skripte/backup/imperativ/06_spielprojekt.md": {
       "sha256": "bc1609b960f920e8a876862a4e4cbe00d81db29b81c27300a72a8aca7c83ce8d",
       "size": 6818
+    },
+    "Skripte/imperativ/01_erste_schritte.md": {
+      "sha256": "8753a099d586eb0a83a501f7324000cc8f52c3a6533d8e8ab165160b8731a646",
+      "size": 4161
+    },
+    "Skripte/imperativ/02_zaehlschleifen.md": {
+      "sha256": "a434954b9b48e2bb3009d79ac125649821d40f8b92cf77049569362e5488c0c6",
+      "size": 3749
+    },
+    "Skripte/imperativ/03_parameterlose_funktionen.md": {
+      "sha256": "2c520655c4256d016eeb81bca1e2129dce5f32624f2a0c7d33f818364a56d2f5",
+      "size": 3704
+    },
+    "Skripte/imperativ/04_datentypen_operatoren_ausdruecke.md": {
+      "sha256": "fd41ed3566b8736566d9b86641d96249087901178590ea998495c08098eb0232",
+      "size": 2494
+    },
+    "Skripte/imperativ/05_variablen.md": {
+      "sha256": "acc4578ba822550b4ad2cfcb32dd771c07b5d656ef45a8d3817ef7aaa170dbd6",
+      "size": 3218
+    },
+    "Skripte/imperativ/06_funktionen_mit_parametern.md": {
+      "sha256": "44737a5d6bc20f46709eaed9180bfc7683da9760d77fad9b5e1b22ed20be39b9",
+      "size": 2520
+    },
+    "Skripte/imperativ/07_strings_eingabe_konvertierung.md": {
+      "sha256": "c03898dda2237022859116cd39fb942f57f199899d99e63db79a76a02edd0560",
+      "size": 2468
+    },
+    "Skripte/imperativ/08_listen.md": {
+      "sha256": "31c2c0eae951333d9ecfb53db2689751a47cecce53472db03a3c2f0a0f0bd7f7",
+      "size": 2657
+    },
+    "Skripte/imperativ/09_einfache_verzweigungen.md": {
+      "sha256": "4e9ab63e5c009ab1850a2d97203f2a6bd978e16abc74e1f1a044b52d5292b7f0",
+      "size": 2309
+    },
+    "Skripte/imperativ/10_komplexe_verzweigungen.md": {
+      "sha256": "eff9345ba34aa43577e56ca72f65df1b9f649de3158f04a40a97fc9588f2371c",
+      "size": 2602
+    },
+    "Skripte/imperativ/11_while_schleifen.md": {
+      "sha256": "efb78ffcd2d46133f07f9d287cf939ac9cbeca79da4a130e60dd5e44cd6f7c39",
+      "size": 2458
+    },
+    "Skripte/imperativ/12_zweidimensionale_listen.md": {
+      "sha256": "7c90d35be9946d32c231b2b178529f9b0e0523974d11a9d57c8b9b25c02096ff",
+      "size": 2567
+    },
+    "Skripte/imperativ/13_interaktive_programme.md": {
+      "sha256": "16c0ba783a4ba885a8e46888439395b4a4540f1810e20cf0262eb14e2a6cf8c7",
+      "size": 2637
+    },
+    "Skripte/imperativ/14_projekt_und_pyxel.md": {
+      "sha256": "9ee86cecdcc2d40d122b98b38347aa53e56baff691bc134d358863a836dbf51f",
+      "size": 2708
     },
     "Skripte/oop/01_objekte.md": {
       "sha256": "8f1c556fba99c20a5f15ff41d3a1eccb17fd82be20d8e252edbe08e854309f82",
@@ -171,8 +319,8 @@
       "size": 1366
     },
     "content.yml": {
-      "sha256": "a5f7db012c44664206df56c38237777d0f6ec59a96d43e0ca912e6c6f3c34a16",
-      "size": 2123
+      "sha256": "671c2ac2314c4814999dbc8e62a6b94e84ff3924c798a8cc082f71b2f8d7459d",
+      "size": 2059
     }
   }
 }

@@ -4,23 +4,20 @@ title: PyKIM-Standardkurs
 minimum_app_version: 0.2.0
 chapters:
   imperativ:
-  - Skripte/imperativ/01_erste_befehle.md
-  - Skripte/imperativ/01a_variablen.md
-  - Skripte/imperativ/01b_datentypen_und_operatoren.md
-  - Skripte/imperativ/02_schleifen.md
-  - Skripte/imperativ/02a_listen.md
-  - Skripte/imperativ/03_bedingungen.md
-  - Skripte/imperativ/04_funktionen.md
-  - Skripte/imperativ/04a_funktionen_mit_parametern.md
-  - Skripte/imperativ/04b_while_schleifen.md
-  - Skripte/imperativ/04c_strings.md
-  - Skripte/imperativ/04d_zweidimensionale_listen.md
-  - Skripte/imperativ/04e_rekursion.md
-  - Skripte/imperativ/04f_dictionaries.md
-  - Skripte/imperativ/04g_fehler_und_debugging.md
-  - Skripte/imperativ/05_interaktiv.md
-  - Skripte/imperativ/05a_welt_anzeigen_und_pyxel.md
-  - Skripte/imperativ/06_spielprojekt.md
+  - Skripte/imperativ/01_erste_schritte.md
+  - Skripte/imperativ/02_zaehlschleifen.md
+  - Skripte/imperativ/03_parameterlose_funktionen.md
+  - Skripte/imperativ/04_datentypen_operatoren_ausdruecke.md
+  - Skripte/imperativ/05_variablen.md
+  - Skripte/imperativ/06_funktionen_mit_parametern.md
+  - Skripte/imperativ/07_strings_eingabe_konvertierung.md
+  - Skripte/imperativ/08_listen.md
+  - Skripte/imperativ/09_einfache_verzweigungen.md
+  - Skripte/imperativ/10_komplexe_verzweigungen.md
+  - Skripte/imperativ/11_while_schleifen.md
+  - Skripte/imperativ/12_zweidimensionale_listen.md
+  - Skripte/imperativ/13_interaktive_programme.md
+  - Skripte/imperativ/14_projekt_und_pyxel.md
   oop:
   - Skripte/oop/01_objekte.md
   - Skripte/oop/02_eigene_klassen.md

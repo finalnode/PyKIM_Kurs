@@ -30,6 +30,16 @@ def validate() -> None:
     catalog = yaml.safe_load((ROOT / "content.yml").read_text(encoding="utf-8"))
     if not isinstance(catalog, dict) or catalog.get("format") != 1:
         raise ValueError("content.yml benötigt format: 1.")
+    chapters = catalog.get("chapters")
+    if not isinstance(chapters, dict) or not chapters:
+        raise ValueError("content.yml benötigt Kapitel.")
+    for paradigm, entries in chapters.items():
+        if not isinstance(entries, list) or not entries:
+            raise ValueError(f"Kapitel für {paradigm!r} fehlen.")
+        for entry in entries:
+            chapter = ROOT / entry if isinstance(entry, str) else ROOT / ""
+            if not isinstance(entry, str) or not chapter.is_file():
+                raise ValueError(f"Skriptkapitel fehlt: {entry!r}.")
     exercises = catalog.get("exercises")
     if not isinstance(exercises, list):
         raise ValueError("content.yml benötigt eine Aufgabenliste.")
