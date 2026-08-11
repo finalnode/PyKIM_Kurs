@@ -1,0 +1,68 @@
+name: Kursinhalte validieren und hashen
+
+on:
+  push:
+    branches:
+      - main
+      - beta
+    paths-ignore:
+      - .pykim/hashes.json
+
+  pull_request:
+    branches:
+      - main
+      - beta
+
+permissions:
+  contents: write
+
+concurrency:
+  group: course-hashes-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-hash:
+    name: Kursstruktur und Hashliste prüfen
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Abhängigkeiten installieren
+        run: python -m pip install "PyYAML>=6,<7"
+
+      - name: Kurs validieren und Hashliste erzeugen
+        run: python tools/validate_content.py --write-hashes
+
+      - name: Hashliste im Pull Request prüfen
+        if: github.event_name == 'pull_request'
+        run: |
+          git diff --exit-code -- .pykim/hashes.json || {
+            echo "::error::.pykim/hashes.json ist nicht aktuell."
+            echo "Führe 'python tools/validate_content.py --write-hashes' aus."
+            exit 1
+          }
+
+      - name: Aktualisierte Hashliste committen
+        if: github.event_name == 'push'
+        run: |
+          if git diff --quiet -- .pykim/hashes.json; then
+            echo "Die Hashliste ist bereits aktuell."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .pykim/hashes.json
+          git commit -m "chore: Inhaltshashes aktualisieren"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
