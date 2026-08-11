@@ -1,11 +1,9 @@
-# Punktlinie aus acht Punkten
-@difficulty:einfach
+# Punktlinie mit acht Punkten
 
-Zeichne ab `(20, 20)` eine regelmäßige violette Punktlinie aus acht Punkten.
+Erzeuge acht einzelne Punkte mit gleichem Abstand. Zwischen den Punkten darf keine durchgehende Malspur entstehen.
 
-- Zwischen zwei Punkten bleibt genau ein schwarzer Pixel.
-- Gehe nach jedem Punkt 2 Pixel nach rechts.
-- KIM endet bei `(36, 20)`.
-- Verwende eine Schleife.
+```python
+run(check="punktlinie-8")
+```
 
-Starte den Test mit `run(check="punktlinie-8")`.
+Überlege zuerst, welche Teilaufgabe sich wiederholt.

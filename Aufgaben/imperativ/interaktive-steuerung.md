@@ -1,9 +1,11 @@
 # Interaktive Steuerung
-@difficulty:mittel
 
-Steuere KIM mit den vier Pfeiltasten.
+Steuere KIM in einer interaktiven Spielschleife über Tastatureingaben.
 
-- Definiere `update()` für Tasteneingaben und Bewegung.
-- Verhindere das Verlassen der Welt.
-- Definiere `draw()`, leere mit `world.cls()` und zeichne KIM.
-- Starte mit `world.run(update, draw, check="interaktive-steuerung")`.
+Achte darauf, dass KIM die Weltgrenzen nicht verlässt.
+
+```python
+world.run(update, draw, check="interaktive-steuerung")
+```
+
+Falls der aktuelle Trainer die Prüfung über einen anderen Startaufruf erwartet, übernimm den Aufruf aus dem bestehenden Kursstand.

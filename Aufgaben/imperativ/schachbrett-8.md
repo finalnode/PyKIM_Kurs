@@ -1,12 +1,9 @@
-# Schachbrett 8 × 8
-@difficulty:mittel
+# Schachbrett
 
-Zeichne ab `(20, 20)` ein Schachbrett aus 8 × 8 einzelnen Pixeln.
+Erzeuge ein regelmäßiges Schachbrettmuster.
 
-- Das linke obere Feld ist `purple`.
-- Die Farben wechseln zwischen `purple` und `orange`.
-- Nutze zwei verschachtelte Schleifen.
-- Wähle die Farbe mit `if` und dem Modulo-Operator `%`.
-- Kapsle das Zeichnen eines Feldes in einer Funktion.
+Nutze mindestens eine eigene Funktion und verschachtelte Wiederholung, wenn dies im Unterricht bereits eingeführt wurde.
 
-Starte den Test mit `run(check="schachbrett-8")`.
+```python
+run(check="schachbrett-8")
+```

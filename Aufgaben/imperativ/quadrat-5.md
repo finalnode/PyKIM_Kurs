@@ -1,11 +1,13 @@
 # Quadrat mit Kantenlänge 5
-@difficulty:einfach
 
-Zeichne mit KIM ein violettes Quadrat mit der Kantenlänge 5.
+Zeichne ein Quadrat mit Kantenlänge 5. Verwende eine Schleife, sobald du Zählschleifen kennengelernt hast.
 
-- Beginne bei `(50, 50)`.
-- Zeichne alle vier Seiten vollständig.
-- Kehre am Ende nach `(50, 50)` zurück.
-- Zeichne keine zusätzlichen Pixel.
+Startpunkt: `(50, 50)`.
 
-Starte den Test mit `run(check="quadrat-5")`.
+Beende dein Programm mit:
+
+```python
+run(check="quadrat-5")
+```
+
+Der Trainer prüft die Zeichnung; verschiedene korrekte Lösungswege sind erlaubt.
