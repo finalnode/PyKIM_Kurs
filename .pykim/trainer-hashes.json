@@ -67,6 +67,10 @@
       "sha256": "6eae7c69a86fdacc7ac6ce1524ba775fe9bb63cf93afc2a3ddded9af14b766a1",
       "size": 79
     },
+    "Trainer/02-code-scramble-treppe.yml": {
+      "sha256": "c1d70f79923a235e1de87e6315c4358d80a2e81aea90b8ed6ea348a253b411ff",
+      "size": 244
+    },
     "Trainer/02-d1.yml": {
       "sha256": "2d88a6d74d3e282d9e6215485b0c198c802173ae6d9ce02a54167adbd06bde76",
       "size": 164
@@ -134,6 +138,10 @@
     "Trainer/04-05.yml": {
       "sha256": "9f5955474672470be4db23596c509fe898acbd3606372dc149d33e7aea5d28ee",
       "size": 148
+    },
+    "Trainer/04-zuordnung-operatoren.yml": {
+      "sha256": "b7c4d1194eee3d1cf0d3bbece6086e5131965437b577b194702cdd66e97ad781",
+      "size": 381
     },
     "Trainer/05-01.yml": {
       "sha256": "805a39bcbcd51382923d0946dc856853eb112e9eeab0db71c8b79127ce617848",

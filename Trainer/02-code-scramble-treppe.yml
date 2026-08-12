@@ -1,0 +1,14 @@
+format: 1
+id: 02-code-scramble-treppe
+title: Code-Scramble – Eine Treppe zusammensetzen
+mode: parsons
+tests:
+- type: pixels
+  stairs:
+    start: [20, 20]
+    steps: 5
+    size: 5
+- type: position
+  position: [45, 45]
+- type: loop
+  kind: for

@@ -16,6 +16,13 @@ speicherbares Antwortfeld. Trainer mit `tests` prüfen die zugehörige
 Programmieraufgabe automatisch. Die alten gebündelten Aufgabenblätter liegen als
 ignoriertes Backup unter `Aufgaben/_backup/aufgabenblaetter/`.
 
+Zusätzliche interaktive Formate:
+
+- `mode: matching` erzeugt eine Zuordnungsaufgabe aus `pairs`.
+- `mode: parsons` erzeugt verschiebbare Codeblöcke aus `blocks` und `solution`.
+  Der zusammengesetzte Code kann ausgeführt und mit normalen `tests` geprüft
+  werden.
+
 Nach Änderungen kann lokal geprüft werden:
 
 ```bash

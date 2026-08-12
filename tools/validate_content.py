@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 
 import yaml
@@ -49,6 +50,11 @@ def validate() -> None:
             raise ValueError(f"Aufgabe fehlt oder ist nicht eindeutig: {exercise_id}.")
         if definition.get("format") != 1 or definition.get("id") != exercise_id:
             raise ValueError(f"Trainerkennung stimmt nicht: {trainer}")
+        if definition.get("mode") == "matching":
+            pairs = definition.get("pairs")
+            if not isinstance(pairs, list) or len(pairs) < 2:
+                raise ValueError(f"Zuordnungsaufgabe ohne gültige Paare: {trainer}")
+            continue
         if definition.get("mode") == "answer":
             unknown = set(definition) - {"format", "id", "title", "mode"}
             if unknown:
@@ -64,6 +70,21 @@ def validate() -> None:
         unknown = {test.get("type") for test in tests} - ALLOWED_TESTS
         if unknown:
             raise ValueError(f"Unbekannte Prüftypen in {trainer}: {sorted(unknown)}")
+        if definition.get("mode") == "parsons":
+            markdown = assignments[0].read_text(encoding="utf-8")
+            annotated_blocks = re.findall(
+                r"(?m)^@block:([a-z0-9]+(?:-[a-z0-9]+)*)"
+                r"(?:[ \t]+step=([1-9][0-9]*))?[ \t]*$",
+                markdown,
+            )
+            block_ids = [block_id for block_id, _step in annotated_blocks]
+            if len(block_ids) < 2 or len(set(block_ids)) != len(block_ids):
+                raise ValueError(f"Parsons-Aufgabe ist unvollständig: {trainer}")
+            steps = [step for _block_id, step in annotated_blocks]
+            if any(steps) and not all(steps):
+                raise ValueError(
+                    f"Bei Reihenfolgestufen benötigt jeder Block eine step-Angabe: {trainer}"
+                )
     assignments = [
         path for path in content_files() if path.is_relative_to(ROOT / "Aufgaben")
     ]

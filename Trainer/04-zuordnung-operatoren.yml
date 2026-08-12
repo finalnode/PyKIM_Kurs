@@ -1,0 +1,17 @@
+format: 1
+id: 04-zuordnung-operatoren
+title: Zuordnung – Python-Operatoren und ihre Wirkung
+mode: matching
+pairs:
+- id: plus
+  left: '`+`'
+  right: addiert zwei Werte
+- id: modulo
+  left: '`%`'
+  right: liefert den Rest einer Division
+- id: equal
+  left: '`==`'
+  right: vergleicht zwei Werte auf Gleichheit
+- id: assign
+  left: '`=`'
+  right: weist einer Variable einen Wert zu
