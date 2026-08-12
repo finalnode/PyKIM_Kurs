@@ -1,0 +1,16 @@
+format: 1
+id: 03-quadrat-funktion
+title: Praxischeck 03 – Quadratfunktion
+tests:
+- type: square
+  start:
+  - 50
+  - 50
+  side: 5
+- type: function
+  name: zeichne_quadrat
+  success: Das Quadrat wird von der Funktion zeichne_quadrat() gezeichnet.
+  failure: Die Funktion zeichne_quadrat() fehlt noch.
+  hint: Definiere zeichne_quadrat() und rufe sie für das Quadrat auf.
+optimization:
+  optimal_lines: 10
