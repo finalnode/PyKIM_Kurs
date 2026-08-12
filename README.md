@@ -19,9 +19,32 @@ ignoriertes Backup unter `Aufgaben/_backup/aufgabenblaetter/`.
 Zusätzliche interaktive Formate:
 
 - `mode: matching` erzeugt eine Zuordnungsaufgabe aus `pairs`.
-- `mode: parsons` erzeugt verschiebbare Codeblöcke aus `blocks` und `solution`.
-  Der zusammengesetzte Code kann ausgeführt und mit normalen `tests` geprüft
-  werden.
+- `mode: parsons` erzeugt verschiebbare Codeblöcke aus `@block:kennung` im
+  Aufgaben-Markdown. `step=N` erlaubt gleichwertige Reihenfolgen innerhalb
+  derselben Stufe. Der zusammengesetzte Code kann ausgeführt und mit normalen
+  `tests` geprüft werden.
+
+Optionale Aufgabenmetadaten bleiben im Markdown nah am Inhalt:
+
+```markdown
+@difficulty:einfach
+@source: Eigene Aufgabe
+@source: Externe Inspiration | https://example.org/aufgabe
+@hint: Ein erster allgemeiner Denkanstoß.
+@hint: Ein zweiter, konkreterer Hinweis.
+```
+
+Mehrere `@hint:`-Zeilen werden Lernenden schrittweise in ihrer Reihenfolge
+angeboten. Mehrere `@source:`-Zeilen erscheinen kompakt unter der
+Aufgabenstellung. Für Parsons-Aufgaben folgt auf jede Blockannotation direkt
+der zugehörige Python-Code:
+
+````markdown
+@block:position step=2
+```python
+set_position(20, 20)
+```
+````
 
 Nach Änderungen kann lokal geprüft werden:
 
