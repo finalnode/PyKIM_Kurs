@@ -1,4 +1,4 @@
-"""Validiere Kursstruktur und erzeuge reproduzierbare SHA-256-Hashes."""
+"""Validiere sichtbare Kursinhalte und hashe die Trainerdefinitionen."""
 
 from __future__ import annotations
 
@@ -20,30 +20,31 @@ ALLOWED_TESTS = {
 
 
 def content_files() -> list[Path]:
-    result = [ROOT / "content.yml"]
+    result = []
     for folder, suffix in (("Skripte", ".md"), ("Aufgaben", ".md"), ("Trainer", ".yml")):
-        result.extend(path for path in (ROOT / folder).rglob(f"*{suffix}") if path.is_file())
+        result.extend(
+            path for path in (ROOT / folder).rglob(f"*{suffix}")
+            if path.is_file()
+            and not any(part.startswith("_") for part in path.relative_to(ROOT).parts)
+        )
     return sorted(result)
 
 
 def validate() -> None:
-    catalog = yaml.safe_load((ROOT / "content.yml").read_text(encoding="utf-8"))
-    if not isinstance(catalog, dict) or catalog.get("format") != 1:
-        raise ValueError("content.yml benötigt format: 1.")
-    exercises = catalog.get("exercises")
-    if not isinstance(exercises, list):
-        raise ValueError("content.yml benötigt eine Aufgabenliste.")
     seen = set()
-    for entry in exercises:
-        exercise_id = entry.get("id")
+    trainers = [path for path in content_files() if path.is_relative_to(ROOT / "Trainer")]
+    for trainer in trainers:
+        definition = yaml.safe_load(trainer.read_text(encoding="utf-8"))
+        exercise_id = definition.get("id") if isinstance(definition, dict) else None
         if not isinstance(exercise_id, str) or exercise_id in seen:
             raise ValueError(f"Ungültige oder doppelte Aufgabenkennung: {exercise_id!r}")
         seen.add(exercise_id)
-        assignment = ROOT / entry.get("assignment", "")
-        trainer = ROOT / entry.get("trainer", "")
-        if not assignment.is_file() or not trainer.is_file():
-            raise ValueError(f"Aufgabe oder Trainer fehlt für {exercise_id}.")
-        definition = yaml.safe_load(trainer.read_text(encoding="utf-8"))
+        assignments = [
+            path for path in content_files()
+            if path.is_relative_to(ROOT / "Aufgaben") and path.stem == exercise_id
+        ]
+        if len(assignments) != 1:
+            raise ValueError(f"Aufgabe fehlt oder ist nicht eindeutig: {exercise_id}.")
         if definition.get("format") != 1 or definition.get("id") != exercise_id:
             raise ValueError(f"Trainerkennung stimmt nicht: {trainer}")
         tests = definition.get("tests")
@@ -54,15 +55,16 @@ def validate() -> None:
             raise ValueError(f"Unbekannte Prüftypen in {trainer}: {sorted(unknown)}")
 
 
-def hashes() -> dict[str, object]:
+def trainer_hashes() -> dict[str, object]:
     files = {
         path.relative_to(ROOT).as_posix(): {
             "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
             "size": path.stat().st_size,
         }
         for path in content_files()
+        if path.is_relative_to(ROOT / "Trainer")
     }
-    return {"format": 1, "algorithm": "sha256", "files": files}
+    return {"format": 1, "algorithm": "sha256", "scope": "trainer", "files": files}
 
 
 def main() -> int:
@@ -70,14 +72,17 @@ def main() -> int:
     parser.add_argument("--write-hashes", action="store_true")
     options = parser.parse_args()
     validate()
-    rendered = json.dumps(hashes(), ensure_ascii=False, indent=2) + "\n"
-    target = ROOT / ".pykim" / "hashes.json"
+    rendered = json.dumps(trainer_hashes(), ensure_ascii=False, indent=2) + "\n"
+    target = ROOT / ".pykim" / "trainer-hashes.json"
     if options.write_hashes:
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(rendered, encoding="utf-8")
     elif not target.is_file() or target.read_text(encoding="utf-8") != rendered:
-        raise SystemExit(".pykim/hashes.json ist nicht aktuell.")
-    print(f"Kursinhalt gültig: {len(hashes()['files'])} Dateien")
+        raise SystemExit(".pykim/trainer-hashes.json ist nicht aktuell.")
+    print(
+        f"Kursinhalt gültig: {len(content_files())} sichtbare Dateien, "
+        f"{len(trainer_hashes()['files'])} Trainer"
+    )
     return 0
 
 

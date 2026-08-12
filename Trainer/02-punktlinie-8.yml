@@ -1,0 +1,45 @@
+format: 1
+id: 02-punktlinie-8
+title: Praxischeck 02 – Punktlinie mit acht Punkten
+tests:
+- type: pixels
+  cells:
+  - - 20
+    - 20
+    - orange
+  - - 24
+    - 20
+    - orange
+  - - 28
+    - 20
+    - orange
+  - - 32
+    - 20
+    - orange
+  - - 36
+    - 20
+    - orange
+  - - 40
+    - 20
+    - orange
+  - - 44
+    - 20
+    - orange
+  - - 48
+    - 20
+    - orange
+  success: Die acht orangefarbenen Punkte liegen exakt an den richtigen Stellen.
+  failure: Die Punktlinie enthält falsche, fehlende oder zusätzliche Pixel.
+  hint: Beginne bei (20, 20), male einen Pixel und gehe dann 4 Schritte weiter.
+- type: position
+  position:
+  - 52
+  - 20
+  success: KIM steht hinter dem letzten Punkt an der richtigen Endposition.
+  hint: Wiederhole auch nach dem achten Punkt die Bewegung um 4 Schritte.
+- type: loop
+  success: Du verwendest eine Schleife für die acht Wiederholungen.
+  failure: Die Punktlinie wurde noch ohne Schleife formuliert.
+  hint: Setze paint(), paint_stop() und right(4) in eine for-Schleife.
+optimization:
+  optimal_lines: 10

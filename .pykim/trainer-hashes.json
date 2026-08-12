@@ -3,13 +3,41 @@
   "algorithm": "sha256",
   "scope": "trainer",
   "files": {
-    "Trainer/farben-melodie.yml": {
-      "sha256": "c7525c83b4b63e6033baa35737364daccdf61ac9668d6d51a881c010bfb6f431",
-      "size": 1129
+    "Trainer/02-punktlinie-8.yml": {
+      "sha256": "59255a47129536e8447760b37063fcba87d97ade85c02b483938c346ea3dbcaf",
+      "size": 1045
     },
-    "Trainer/interaktive-steuerung.yml": {
-      "sha256": "796415119025c849263c35b151fac5604988d0e8f81c3b07bd8b812f81425e26",
-      "size": 1004
+    "Trainer/02-treppe-5.yml": {
+      "sha256": "b9fe61f6a5f1ba0e46c321222f87602c02eeb29e9162171af32dfdf1f1e60d04",
+      "size": 1185
+    },
+    "Trainer/03-quadrat-funktion.yml": {
+      "sha256": "795a25ae420fd4daf25755ae77836d45eca689352bc9831cc47db50d383d53c7",
+      "size": 406
+    },
+    "Trainer/03-vier-quadrate.yml": {
+      "sha256": "f1f60e45a29e597178c1fab2614561af0442dc0edec1a941a723becb66047c7d",
+      "size": 1388
+    },
+    "Trainer/08-rhythmus-motiv.yml": {
+      "sha256": "81e91239d7e1def26b3e6cb3fe12fb0f6728a2783c7a58b88b8dd3c5416d7457",
+      "size": 771
+    },
+    "Trainer/08-tonleiter-c-dur.yml": {
+      "sha256": "60494dc72ba2990935cf9ac806070d7e5c83e0a623f2127b42b265f40d65c360",
+      "size": 692
+    },
+    "Trainer/09-farben-melodie.yml": {
+      "sha256": "5dc9f044cd47f90ba9980b0b2db27bba7f1f870c715666ab9b59ee3fdaab4133",
+      "size": 1151
+    },
+    "Trainer/12-schachbrett-8.yml": {
+      "sha256": "80667904118aecb4edc0514829f7bb316c36292d7ff44c38f7c291c785309393",
+      "size": 943
+    },
+    "Trainer/13-interaktive-steuerung.yml": {
+      "sha256": "2a9cfa5d09bb4e31f8d4ef7cc6c7a3f23725010597e50819955f59d2f27a0514",
+      "size": 1026
     },
     "Trainer/mehrere-pixel.yml": {
       "sha256": "6835e97b366ddec6a6e04d050614921f0ad44fa02da727fc76dbbc0de06f0ece",
@@ -18,34 +46,6 @@
     "Trainer/musik-pixel-klasse.yml": {
       "sha256": "8cda7d1b4852893c100fd82ac1b2e83e74f33686190f3e208e947aee78430081",
       "size": 874
-    },
-    "Trainer/punktlinie-8.yml": {
-      "sha256": "8c6d3d0c104e46a07940efe3db2bdc910ddce3b0775dd4be72d9236005ce452f",
-      "size": 1015
-    },
-    "Trainer/quadrat-5.yml": {
-      "sha256": "c665980789da9aabab6a3301b0228459ce5e8452686a5ff60e560f48c819a1cd",
-      "size": 147
-    },
-    "Trainer/rhythmus-motiv.yml": {
-      "sha256": "f8c995f4df859011591439685606571127a5458146eb97961fc974e1160abf44",
-      "size": 749
-    },
-    "Trainer/schachbrett-8.yml": {
-      "sha256": "45ed09ce4de254612a5617d1af7c25da845cbe042bdf929183eeef8f522ed18e",
-      "size": 926
-    },
-    "Trainer/tonleiter-c-dur.yml": {
-      "sha256": "516214cc4ddfef9524b5b71f650ee5650d7a14b58eacdac311504604ce19d631",
-      "size": 670
-    },
-    "Trainer/treppe-5.yml": {
-      "sha256": "ce5c1e9d010608ac98b4412d082a532bbc843c9d8398b3726a647335ac234d8b",
-      "size": 1159
-    },
-    "Trainer/vier-quadrate.yml": {
-      "sha256": "89b43daea7001c79358e61833d9212e151c35e8ed0e0bc46c0a91caad71b3f31",
-      "size": 1366
     }
   }
 }
