@@ -1,0 +1,8 @@
+format: 1
+id: oop-01-02
+title: 2 – Gib beiden unterschiedliche Farben und Wege.
+tests:
+- type: pixel-names
+  names:
+  - KIM
+  - MIA

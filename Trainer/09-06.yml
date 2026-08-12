@@ -1,0 +1,11 @@
+format: 1
+id: 09-06
+title: 9.6 – Erzeuge mit `choice()` in einer Schleife zufällige Farbpunkte, aber nur
+  aus einer selbst festgelegten Liste erlaubter Farben.
+tests:
+- type: loop
+  kind: for
+- type: condition
+- type: calls
+  names:
+  - choice

@@ -1,0 +1,13 @@
+format: 1
+id: 05-03
+title: 5.3 – Zeichne ab `(50, 50)` ein Quadrat mit Kantenlänge 5. Die Größe darf nur
+  über die Variable `seitenlaenge` geändert werden.
+tests:
+- type: square
+  start:
+  - 50
+  - 50
+  side: 5
+- type: calls
+  names:
+  - range

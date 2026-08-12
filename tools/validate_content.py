@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_TESTS = {
     "pixels", "no-extra-pixels", "pixel-count", "square", "position",
     "positions", "pixel-names", "visibility", "audio", "loop",
-    "nested-loop", "parallel", "condition", "function", "calls",
+    "nested-loop", "parallel", "condition", "function", "function-cases", "calls",
     "class", "methods", "super-init",
 }
 
@@ -35,6 +35,8 @@ def validate() -> None:
     trainers = [path for path in content_files() if path.is_relative_to(ROOT / "Trainer")]
     for trainer in trainers:
         definition = yaml.safe_load(trainer.read_text(encoding="utf-8"))
+        if not isinstance(definition, dict):
+            raise ValueError(f"Ungültige Trainerdatei: {trainer}")
         exercise_id = definition.get("id") if isinstance(definition, dict) else None
         if not isinstance(exercise_id, str) or exercise_id in seen:
             raise ValueError(f"Ungültige oder doppelte Aufgabenkennung: {exercise_id!r}")
@@ -47,12 +49,29 @@ def validate() -> None:
             raise ValueError(f"Aufgabe fehlt oder ist nicht eindeutig: {exercise_id}.")
         if definition.get("format") != 1 or definition.get("id") != exercise_id:
             raise ValueError(f"Trainerkennung stimmt nicht: {trainer}")
+        if definition.get("mode") == "answer":
+            unknown = set(definition) - {"format", "id", "title", "mode"}
+            if unknown:
+                raise ValueError(
+                    f"Unbekannte Felder in Antworttrainer {trainer}: {sorted(unknown)}"
+                )
+            if not isinstance(definition.get("title"), str) or not definition["title"].strip():
+                raise ValueError(f"Antworttrainer ohne Titel: {trainer}")
+            continue
         tests = definition.get("tests")
         if not isinstance(tests, list) or not tests:
             raise ValueError(f"{trainer} benötigt mindestens einen Test.")
         unknown = {test.get("type") for test in tests} - ALLOWED_TESTS
         if unknown:
             raise ValueError(f"Unbekannte Prüftypen in {trainer}: {sorted(unknown)}")
+    assignments = [
+        path for path in content_files() if path.is_relative_to(ROOT / "Aufgaben")
+    ]
+    missing = sorted(path.stem for path in assignments if path.stem not in seen)
+    if missing:
+        raise ValueError(
+            "Für folgende Aufgaben fehlen Trainerdateien: " + ", ".join(missing)
+        )
 
 
 def trainer_hashes() -> dict[str, object]:

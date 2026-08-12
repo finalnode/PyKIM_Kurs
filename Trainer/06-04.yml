@@ -1,0 +1,10 @@
+format: 1
+id: 06-04
+title: 6.4 – Ergänze `farbe` als dritten Parameter.
+tests:
+- type: function
+  name: punktlinie
+  parameters:
+  - anzahl
+  - abstand
+  - farbe

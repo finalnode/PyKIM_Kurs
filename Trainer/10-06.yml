@@ -1,0 +1,11 @@
+format: 1
+id: 10-06
+title: 10.6 – Schreibe `move_kim(command, value)`. Erlaubt sind nur `"up"`, `"down"`,
+  `"left"`, `"right"` und sinnvolle positive Schrittweiten.
+tests:
+- type: function
+  name: move_kim
+  parameters:
+  - command
+  - value
+- type: condition

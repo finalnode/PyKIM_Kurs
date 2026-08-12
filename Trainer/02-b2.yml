@@ -1,0 +1,33 @@
+format: 1
+id: 02-b2
+title: B2 – Zeichne ab `(20, 20)` acht einzelne orangefarbene Punkte mit Abstand 4
+  und verwende eine `for`-Schleife.
+tests:
+- type: pixels
+  cells:
+  - - 20
+    - 20
+    - orange
+  - - 24
+    - 20
+    - orange
+  - - 28
+    - 20
+    - orange
+  - - 32
+    - 20
+    - orange
+  - - 36
+    - 20
+    - orange
+  - - 40
+    - 20
+    - orange
+  - - 44
+    - 20
+    - orange
+  - - 48
+    - 20
+    - orange
+- type: loop
+  kind: for

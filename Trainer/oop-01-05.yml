@@ -1,0 +1,8 @@
+format: 1
+id: oop-01-05
+title: 5 – Verstecke ein Pixel erst nach seiner letzten Bewegung und erkläre den Unterschied
+  zwischen Sichtbarkeit und Zeichnung.
+tests:
+- type: visibility
+  pixel: MIA
+  visible: false

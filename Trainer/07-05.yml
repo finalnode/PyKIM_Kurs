@@ -1,0 +1,22 @@
+format: 1
+id: 07-05
+title: 7.5 – Definiere `bruttopreis(netto, mwst_prozent)` und gib den berechneten
+  Bruttopreis mit `return` zurück.
+tests:
+- type: function
+  name: bruttopreis
+  parameters:
+  - netto
+  - mwst_prozent
+  returns: true
+- type: function-cases
+  name: bruttopreis
+  cases:
+  - args:
+    - 100
+    - 19
+    expected: 119.0
+  - args:
+    - 50
+    - 7
+    expected: 53.5

@@ -181,15 +181,6 @@ Vererbung sollte eine sinnvolle „ist-ein“-Beziehung ausdrücken. Sonst ist e
 
 Eine große `Spiel`-Klasse mit Welt, Figuren, Eingabe, Punkten, Audio und Leveldaten wird schwer wartbar. Teile Verantwortlichkeiten auf mehrere Klassen auf.
 
-## Übungen
-
-1. Implementiere eine Klasse `Punktestand` mit `erhoehen()`, `zuruecksetzen()` und `text()`.
-2. Erzeuge zwei unabhängige Punktestände und zeige, dass ihre Werte getrennt bleiben.
-3. Leite `FarbPixel` von `Pixel` ab und ergänze ein Farbattribut.
-4. Entwickle `MusikPixel` mit einer eigenen Note.
-5. Überschreibe `update()` und `draw()` für zwei unterschiedliche Pixelklassen.
-6. Speichere verschiedene Unterklassen in einer Liste und rufe einheitlich `update()` auf.
-7. Entscheide für drei Beziehungen, ob Vererbung oder Komposition besser passt, und begründe die Wahl.
 
 ## Merksatz
 

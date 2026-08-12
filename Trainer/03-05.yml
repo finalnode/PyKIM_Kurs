@@ -1,0 +1,6 @@
+format: 1
+id: 03-05
+title: 3.5 – Schreibe `zeichne_feld()` als Grundbaustein eines Schachbrettmusters.
+tests:
+- type: function
+  name: zeichne_feld

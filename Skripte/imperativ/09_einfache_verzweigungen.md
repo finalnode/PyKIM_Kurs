@@ -106,19 +106,6 @@ print(zahl)
 
 Damit lassen sich Entscheidungen mit zufälligen Eingaben testen.
 
-## Übungen
-
-**⭐ 9.1** Bestimme den Wahrheitswert verschiedener Vergleichsausdrücke.
-
-**⭐ 9.2** Schreibe Bedingungen für: „zahl liegt unter 10“, „zahl ist 7“, „zahl ist nicht 0“.
-
-**⭐ 9.3** Gib für eine Zahl aus, ob sie gerade oder ungerade ist.
-
-**⭐⭐ 9.4** Erzeuge zehn Zufallszahlen von 1 bis 6 und gib sie aus.
-
-**⭐⭐ 9.5** KIM soll eine Meldung ausgeben, wenn er auf einem roten Feld steht.
-
-**⭐⭐ 9.6** Male zufällige Farbpunkte aus einer vorgegebenen Farbliste.
 
 ## Merksatz
 

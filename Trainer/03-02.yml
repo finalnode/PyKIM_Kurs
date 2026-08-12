@@ -1,0 +1,14 @@
+format: 1
+id: 03-02
+title: 3.2 – Definiere `zeichne_quadrat()` und zeichne damit ab `(50, 50)` ein Quadrat
+  mit Kantenlänge 5.
+tests:
+- type: function
+  name: zeichne_quadrat
+  parameters: []
+  returns: false
+- type: square
+  start:
+  - 50
+  - 50
+  side: 5

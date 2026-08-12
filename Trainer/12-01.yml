@@ -1,0 +1,5 @@
+format: 1
+id: 12-01
+title: 12.1 – Lege eine 4 × 2-Matrix an und gib alle Werte aus.
+tests:
+- type: nested-loop

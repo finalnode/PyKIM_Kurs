@@ -1,0 +1,10 @@
+format: 1
+id: 10-03
+title: 10.3 – Schreibe `get_grade(grade)` für Noten 1 bis 6 und ungültige Eingaben.
+tests:
+- type: function
+  name: get_grade
+  parameters:
+  - grade
+  returns: true
+- type: condition

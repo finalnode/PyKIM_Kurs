@@ -6,12 +6,15 @@ für die PyKIM Suite.
 - `main` enthält den stabilen Unterrichtsstand.
 - `beta` dient zur Erprobung neuer und geänderter Inhalte.
 - Alle sichtbaren Markdown-Dateien unter `Skripte/` und `Aufgaben/` werden automatisch geladen.
-- Automatisch geprüfte Aufgaben besitzen eine gleichnamige YAML-Datei unter `Trainer/`.
+- Jede Aufgabe liegt in einer eigenen Markdown-Datei und besitzt eine gleichnamige
+  YAML-Datei unter `Trainer/`.
 - Dateien und Ordner, deren Name mit `_` beginnt, werden von der Suite ignoriert.
 - `.pykim/trainer-hashes.json` sichert ausschließlich die Trainerdefinitionen ab.
 
-Kapitelblätter ohne Trainer erscheinen als offene Aufgaben mit einem speicherbaren
-Antwortfeld. Die zusätzlichen Praxischecks werden automatisch geprüft.
+Trainer mit `mode: answer` kennzeichnen offene Aufgaben und zeigen ein
+speicherbares Antwortfeld. Trainer mit `tests` prüfen die zugehörige
+Programmieraufgabe automatisch. Die alten gebündelten Aufgabenblätter liegen als
+ignoriertes Backup unter `Aufgaben/_backup/aufgabenblaetter/`.
 
 Nach Änderungen kann lokal geprüft werden:
 

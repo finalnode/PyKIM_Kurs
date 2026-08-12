@@ -1,6 +1,6 @@
 format: 1
 id: 03-vier-quadrate
-title: Praxischeck 03 – Vier Quadrate in einer Reihe
+title: Praxischeck 03 – Vier Quadrate
 tests:
 - type: pixels
   paths:

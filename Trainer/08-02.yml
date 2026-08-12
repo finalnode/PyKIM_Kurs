@@ -1,0 +1,6 @@
+format: 1
+id: 08-02
+title: 8.2 – Male eine Liste von Farben als Punktreihe.
+tests:
+- type: loop
+  kind: for

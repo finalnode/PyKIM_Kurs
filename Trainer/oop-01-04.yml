@@ -1,0 +1,5 @@
+format: 1
+id: oop-01-04
+title: 4 – Kombiniere eine sequenzielle mit einer parallelen Phase.
+tests:
+- type: parallel

@@ -94,19 +94,6 @@ if get_color("right") != "brown":
 
 Falls die Hindernisfunktion in deiner PyKIM-Version bereits eingebaut ist, übernimmt die API einen Teil dieser Prüfung. Algorithmisch bleibt das Prinzip gleich: **wahrnehmen → entscheiden → handeln**.
 
-## Übungen
-
-**⭐ 10.1** Vervollständige Wahrheitstabellen für `and`, `or`, `not`.
-
-**⭐ 10.2** Formuliere: „x liegt zwischen 20 und 50 einschließlich“ auf zwei Arten.
-
-**⭐⭐ 10.3** Schreibe `get_grade(grade)`, das für die Werte 1 bis 6 einen Notentext ausgibt und ungültige Werte erkennt.
-
-**⭐⭐ 10.4** Programmiere eine Bewegung, die KIM nicht über den rechten Rand hinausführt.
-
-**⭐⭐ 10.5** KIM soll abhängig von einer gelesenen Farbe unterschiedliche Meldungen oder Aktionen ausführen.
-
-**⭐⭐⭐ 10.6** Entwickle eine Funktion `move_kim(command, value)`, die nur bekannte Bewegungsbefehle und gültige Werte akzeptiert.
 
 ## Merksatz
 

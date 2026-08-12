@@ -1,0 +1,9 @@
+format: 1
+id: 06-02
+title: 6.2 – `zeichne_rechteck(breite, hoehe)`
+tests:
+- type: function
+  name: zeichne_rechteck
+  parameters:
+  - breite
+  - hoehe

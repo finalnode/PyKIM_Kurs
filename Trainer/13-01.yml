@@ -1,0 +1,9 @@
+format: 1
+id: 13-01
+title: 13.1 – Steuere KIM über die vier Pfeiltasten.
+tests:
+- type: function
+  name: update
+- type: condition
+  calls:
+  - btn

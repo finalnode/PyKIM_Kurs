@@ -179,14 +179,6 @@ Zusätzliche Variablen `mia_x` und `mia_y` können von der tatsächlichen Objekt
 
 `world.parallel()` plant PyKIM-Aktionen gemeinsam. Es vermeidet die Komplexität und Fehlergefahren echter Threads.
 
-## Übungen
-
-1. Erzeuge zwei benannte Pixel an verschiedenen Positionen.
-2. Gib beiden unterschiedliche Farben und Wege.
-3. Speichere drei Pixel in einer Liste und bewege sie mit einer Schleife.
-4. Kombiniere eine sequenzielle mit einer parallelen Phase.
-5. Verstecke ein Pixel erst nach seiner letzten Bewegung und erkläre den Unterschied zwischen Sichtbarkeit und Zeichnung.
-6. Ordne verschiedene Operationen entweder der Welt oder einem Pixel zu und begründe die Zuständigkeit.
 
 ## Merksatz
 

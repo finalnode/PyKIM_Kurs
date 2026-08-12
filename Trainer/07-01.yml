@@ -1,0 +1,19 @@
+format: 1
+id: 07-01
+title: 7.1 – Definiere `begruesse(name)`. Die Funktion gibt beispielsweise für `"Ada"`
+  exakt `"Hallo, Ada!"` zurück.
+tests:
+- type: function
+  name: begruesse
+  parameters:
+  - name
+  returns: true
+- type: function-cases
+  name: begruesse
+  cases:
+  - args:
+    - Ada
+    expected: Hallo, Ada!
+  - args:
+    - Kim
+    expected: Hallo, Kim!

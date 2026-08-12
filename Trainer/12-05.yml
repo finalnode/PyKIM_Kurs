@@ -1,0 +1,5 @@
+format: 1
+id: 12-05
+title: 12.5 – Entwirf eine kleine Labyrinthmatrix.
+tests:
+- type: nested-loop

@@ -1,0 +1,6 @@
+format: 1
+id: 03-06
+title: 3.6 – Erreiche ein selbst entworfenes Muster mit höchstens 20 relevanten Codezeilen.
+tests:
+- type: function
+- type: loop

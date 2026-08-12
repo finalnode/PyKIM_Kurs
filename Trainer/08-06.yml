@@ -1,0 +1,6 @@
+format: 1
+id: 08-06
+title: 8.6 – Verwende eine Liste von Schrittweiten für ein unregelmäßiges Muster.
+tests:
+- type: loop
+  kind: for

@@ -1,0 +1,7 @@
+format: 1
+id: 11-04
+title: 11.4 – Programmiere ein Zahlenratespiel mit Versuchszähler.
+tests:
+- type: loop
+  kind: while
+- type: condition

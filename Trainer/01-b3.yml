@@ -1,0 +1,9 @@
+format: 1
+id: 01-b3
+title: B3 – Zeichne drei getrennte Linien. Der Zwischenraum darf nicht gefärbt sein.
+tests:
+- type: calls
+  names:
+  - set_position
+  - paint
+  - run

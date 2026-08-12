@@ -107,17 +107,6 @@ run()
 
 Python wertet zuerst die Ausdrücke aus und übergibt anschließend die Ergebnisse als Argumente.
 
-## Übungen
-
-**⭐ 4.1** Bestimme Wert und Datentyp von `7 / 2`, `7 // 2`, `7 % 2`, `2 ** 5`.
-
-**⭐ 4.2** Erkläre experimentell den Unterschied zwischen `/`, `//` und `%`.
-
-**⭐⭐ 4.3** Setze Klammern so, dass aus `3 + 4 * 2` der Wert `14` entsteht.
-
-**⭐⭐ 4.4** Schreibe ein Programm, das zu den Zahlen 1 bis 10 jeweils Quadrat und Rest bei Division durch 3 ausgibt.
-
-**⭐⭐⭐ 4.5** Entwickle selbst eine kleine Ausdrucksfrage mit vier Antwortmöglichkeiten und einer begründeten Lösung.
 
 ## Merksatz
 

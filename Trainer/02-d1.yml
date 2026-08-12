@@ -1,0 +1,7 @@
+format: 1
+id: 02-d1
+title: D1 – Erzeuge ein eigenes Muster, das ohne Schleife mindestens 25 Bewegungsbefehle
+  benötigen würde.
+tests:
+- type: loop
+  kind: for

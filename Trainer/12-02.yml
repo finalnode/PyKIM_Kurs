@@ -1,0 +1,5 @@
+format: 1
+id: 12-02
+title: 12.2 – Greife gezielt über Zeile und Spalte auf einzelne Werte zu.
+tests:
+- type: nested-loop

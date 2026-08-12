@@ -1,0 +1,6 @@
+format: 1
+id: 12-07
+title: 12.7 – Erzeuge das Grundlayout eines 4 × 2-Memorys aus einer zweidimensionalen
+  Liste.
+tests:
+- type: nested-loop

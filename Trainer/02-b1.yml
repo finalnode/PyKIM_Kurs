@@ -1,0 +1,18 @@
+format: 1
+id: 02-b1
+title: B1 – Beginne bei `(20, 20)` und zeichne mit einer `for`-Schleife eine Treppe
+  mit fünf Stufen aus `right(5)` und `down(5)`.
+tests:
+- type: pixels
+  stairs:
+    start:
+    - 20
+    - 20
+    steps: 5
+    size: 5
+- type: position
+  position:
+  - 45
+  - 45
+- type: loop
+  kind: for

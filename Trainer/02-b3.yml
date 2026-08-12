@@ -1,0 +1,33 @@
+format: 1
+id: 02-b3
+title: B3 – Zeichne ab `(20, 20)` acht orangefarbene Punkte. Beginne mit Abstand 4
+  und erhöhe den Abstand nach jedem Punkt um 1.
+tests:
+- type: pixels
+  cells:
+  - - 20
+    - 20
+    - orange
+  - - 24
+    - 20
+    - orange
+  - - 29
+    - 20
+    - orange
+  - - 35
+    - 20
+    - orange
+  - - 42
+    - 20
+    - orange
+  - - 50
+    - 20
+    - orange
+  - - 59
+    - 20
+    - orange
+  - - 69
+    - 20
+    - orange
+- type: loop
+  kind: for

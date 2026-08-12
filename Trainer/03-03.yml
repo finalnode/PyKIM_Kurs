@@ -1,0 +1,8 @@
+format: 1
+id: 03-03
+title: 3.3 – Zeichne vier Quadrate, indem du dieselbe Funktion mehrfach aufrufst.
+tests:
+- type: function
+  name: zeichne_quadrat
+- type: loop
+  kind: for

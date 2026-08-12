@@ -1,0 +1,7 @@
+format: 1
+id: oop-02-04
+title: 4 – Entwickle `MusikPixel` mit einer eigenen Note.
+tests:
+- type: class
+  name: MusikPixel
+  base: Pixel

@@ -1,0 +1,7 @@
+format: 1
+id: 13-04
+title: 13.4 – Lass KIM automatisch horizontal laufen und an den Grenzen umkehren.
+tests:
+- type: function
+  name: update
+- type: condition

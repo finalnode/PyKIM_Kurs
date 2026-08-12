@@ -1,0 +1,12 @@
+format: 1
+id: 07-03
+title: 7.3 – Definiere `zeichne_linie(laenge)`, rufe die Funktion auf und verwende
+  die Länge für eine PyKIM-Linie.
+tests:
+- type: function
+  name: zeichne_linie
+  parameters:
+  - laenge
+- type: calls
+  names:
+  - run

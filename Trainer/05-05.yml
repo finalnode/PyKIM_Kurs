@@ -1,0 +1,23 @@
+format: 1
+id: 05-05
+title: 5.5 – Definiere `summe_bis(zahl)`. Berechne die Summe von 1 bis `zahl` mit
+  einer Schleife und gib sie mit `return` zurück.
+tests:
+- type: function
+  name: summe_bis
+  parameters:
+  - zahl
+  returns: true
+- type: function-cases
+  name: summe_bis
+  cases:
+  - args:
+    - 1
+    expected: 1
+  - args:
+    - 10
+    expected: 55
+  - args:
+    - 100
+    expected: 5050
+- type: loop

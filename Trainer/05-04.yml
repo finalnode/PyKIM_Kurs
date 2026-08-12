@@ -1,0 +1,5 @@
+format: 1
+id: 05-04
+title: 5.4 – Erzeuge eine Punktreihe, bei der `abstand` nach jedem Punkt größer wird.
+tests:
+- type: loop

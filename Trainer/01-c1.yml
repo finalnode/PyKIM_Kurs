@@ -1,0 +1,9 @@
+format: 1
+id: 01-c1
+title: 'C1 – Repariere:'
+tests:
+- type: calls
+  names:
+  - set_position
+  - paint
+  - run

@@ -1,0 +1,11 @@
+format: 1
+id: 13-03
+title: 13.3 – Die Leertaste soll KIM ein- und ausblenden.
+tests:
+- type: function
+  name: update
+- type: condition
+  calls:
+  - btnp
+  - hide
+  - show

@@ -1,0 +1,6 @@
+format: 1
+id: 02-c1
+title: 'C1 – Repariere:'
+tests:
+- type: loop
+  kind: for

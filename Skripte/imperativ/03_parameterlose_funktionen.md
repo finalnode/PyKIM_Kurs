@@ -185,19 +185,6 @@ def zeichne_quadrat():
 
 Die Funktion ruft sich ohne Abbruchbedingung immer wieder selbst auf.
 
-## Übungen
-
-**⭐ 3.1** Schreibe `zeichne_punkt()`, das einen roten Punkt malt.
-
-**⭐ 3.2** Schreibe `zeichne_quadrat()`, das ein Quadrat mit fester Kantenlänge 5 zeichnet.
-
-**⭐⭐ 3.3** Rufe deine Quadratfunktion viermal an verschiedenen Positionen auf.
-
-**⭐⭐ 3.4** Schreibe `zeichne_feld()` und nutze die Funktion beim Aufbau eines einfachen Schachbrettmusters.
-
-**⭐⭐ 3.5** Kombiniere eine eigene Motivfunktion mit einer Schleife.
-
-**⭐⭐⭐ 3.6** Entwirf selbst ein Grundmotiv und baue daraus ein größeres Muster. Das Grundmotiv muss in einer Funktion stehen.
 
 ## Merksatz
 

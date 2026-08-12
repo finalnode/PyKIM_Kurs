@@ -1,0 +1,9 @@
+format: 1
+id: 13-06
+title: 13.6 – Baue ein kleines Sammel- oder Ausweichspiel.
+tests:
+- type: function
+  name: update
+- type: function
+  name: draw
+- type: condition

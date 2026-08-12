@@ -94,21 +94,6 @@ Bei einer Position `(zeile, spalte)` liegen typische Nachbarn bei:
 
 Vor dem Zugriff muss geprüft werden, ob diese Position noch innerhalb der Matrix liegt.
 
-## Übungen
-
-**⭐ 12.1** Lege eine 4 × 2-Matrix an und gib alle Werte zeilenweise aus.
-
-**⭐ 12.2** Greife gezielt auf das dritte Element der zweiten Zeile zu.
-
-**⭐⭐ 12.3** Stelle eine Matrix aus 0 und 1 mit zwei verschiedenen PyKIM-Farben dar.
-
-**⭐⭐ 12.4** Verwende drei oder mehr Zahlenwerte als Farbcodes.
-
-**⭐⭐ 12.5** Entwirf eine kleine Labyrinthmatrix. Eine Zahl steht für frei, eine für Wand.
-
-**⭐⭐⭐ 12.6** Schreibe eine Funktion, die zu einer Matrixposition alle gültigen orthogonalen Nachbarn liefert.
-
-**⭐⭐⭐ 12.7** Erstelle ein kleines Memory- oder Tic-Tac-Toe-Grundlayout aus einer 2D-Liste.
 
 ## Merksatz
 

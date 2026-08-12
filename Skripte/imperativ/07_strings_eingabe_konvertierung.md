@@ -111,19 +111,6 @@ alter = int(input("Alter: "))
 print(alter + 1)
 ```
 
-## Übungen
-
-**⭐ 7.1** Frage einen Namen ab und begrüße die Person.
-
-**⭐ 7.2** Frage eine Zahl ab, wandle sie in `int` um und gib ihr Quadrat aus.
-
-**⭐⭐ 7.3** Frage die Länge einer PyKIM-Linie ab und zeichne sie.
-
-**⭐⭐ 7.4** Frage `x` und `y` ab und setze KIM auf diese Position.
-
-**⭐⭐ 7.5** Berechne aus einem Nettopreis und einem Mehrwertsteuersatz einen Bruttopreis.
-
-**⭐⭐⭐ 7.6** Schreibe ein kleines Konfigurationsprogramm für ein PyKIM-Muster: Anzahl, Abstand und Farbe werden vor dem Zeichnen festgelegt.
 
 ## Merksatz
 

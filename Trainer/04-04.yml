@@ -1,0 +1,10 @@
+format: 1
+id: 04-04
+title: 4.4 – Gib die Zahlen 1 bis 10, ihre Quadrate und den Rest bei Division durch
+  3 aus.
+tests:
+- type: loop
+  kind: for
+- type: calls
+  names:
+  - print

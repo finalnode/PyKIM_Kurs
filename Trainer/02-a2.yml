@@ -1,0 +1,6 @@
+format: 1
+id: 02-a2
+title: A2 – Gib `4, 6, 8, ..., 20` mit `range()` aus.
+tests:
+- type: loop
+  kind: for

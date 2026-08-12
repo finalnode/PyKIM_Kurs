@@ -1,0 +1,7 @@
+format: 1
+id: 13-02
+title: 13.2 – Sichere alle vier Weltgrenzen ab.
+tests:
+- type: function
+  name: update
+- type: condition

@@ -1,0 +1,13 @@
+format: 1
+id: 12-06
+title: 12.6 – Schreibe `nachbarn(feld, zeile, spalte)`, das gültige orthogonale Nachbarn
+  zurückgibt.
+tests:
+- type: function
+  name: nachbarn
+  parameters:
+  - feld
+  - zeile
+  - spalte
+  returns: true
+- type: condition

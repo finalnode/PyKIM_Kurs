@@ -105,19 +105,6 @@ world.text(...)      → pyxel.text(...)
 
 Die Konzepte bleiben erhalten.
 
-## Übungen
-
-**⭐ 13.1** Steuere KIM mit den vier Pfeiltasten.
-
-**⭐⭐ 13.2** Verhindere Bewegungen außerhalb der Welt.
-
-**⭐⭐ 13.3** Blende KIM mit der Leertaste ein und aus.
-
-**⭐⭐ 13.4** Lass KIM automatisch horizontal laufen und an den Rändern die Richtung wechseln.
-
-**⭐⭐ 13.5** Ergänze eine Hindernisprüfung mit einer festgelegten Farbe.
-
-**⭐⭐⭐ 13.6** Entwickle ein kleines Sammel-, Reaktions- oder Ausweichspiel.
 
 ## Merksatz
 

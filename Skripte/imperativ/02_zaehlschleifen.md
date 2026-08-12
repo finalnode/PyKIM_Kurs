@@ -182,31 +182,6 @@ for _ in range(5):
     right()
 ```
 
-## Übungen
-
-**⭐ 2.1** Ergänze in einer Vierer-Schleife `print(i)` und notiere die ausgegebenen Werte.
-
-**⭐ 2.2** Zeichne die Treppe aus fünf Stufen mit einer Schleife.
-
-**⭐ 2.3** Repariere diesen Code:
-
-```text
-from pykim import *
-for a on range(5)
-right(5)
-down(5)
-run()
-```
-
-**⭐⭐ 2.4** Zeichne vier gleiche Quadrate nebeneinander. Verwende mindestens eine Schleife.
-
-**⭐⭐ 2.5** Zeichne acht einzelne Punkte mit gleichem Abstand.
-
-**⭐⭐ 2.6** Verändere Aufgabe 2.5 so, dass der Abstand zwischen den Punkten immer größer wird.
-
-**⭐ 2.7** Gib die Zahlen von 4 bis 20 mit Schrittweite 2 aus.
-
-**⭐⭐ 2.8** Gib zusätzlich jeweils die Quadratzahl aus.
 
 ## Merksatz
 

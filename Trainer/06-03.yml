@@ -1,0 +1,10 @@
+format: 1
+id: 06-03
+title: 6.3 – `punktlinie(anzahl, abstand)`
+tests:
+- type: function
+  name: punktlinie
+  parameters:
+  - anzahl
+  - abstand
+- type: loop

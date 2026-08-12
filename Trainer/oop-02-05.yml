@@ -1,0 +1,12 @@
+format: 1
+id: oop-02-05
+title: 5 – Überschreibe `update()` und `draw()` für zwei unterschiedliche Pixelklassen.
+tests:
+- type: class
+  name: BlinkPixel
+  base: Pixel
+- type: methods
+  class: BlinkPixel
+  names:
+  - update
+  - draw

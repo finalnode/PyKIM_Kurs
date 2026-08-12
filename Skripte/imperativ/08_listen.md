@@ -120,21 +120,6 @@ paint_stop()
 run()
 ```
 
-## Übungen
-
-**⭐ 8.1** Gib alle Elemente einer Farbliste aus.
-
-**⭐ 8.2** Male aus einer Farbliste eine Reihe farbiger Punkte.
-
-**⭐ 8.3** Spiele eine Liste von Notennamen mit `play_tone()` ab.
-
-**⭐⭐ 8.4** Berechne den Durchschnitt einer Liste aus mindestens fünf Zahlen.
-
-**⭐⭐ 8.5** Bearbeite dieselbe Liste einmal über Werte und einmal über Indizes. Erkläre, welche Variante einfacher ist.
-
-**⭐⭐ 8.6** Erzeuge mit einer Liste von Schrittweiten ein unregelmäßiges PyKIM-Muster.
-
-**⭐⭐⭐ 8.7** Entwickle eine eigene Listenaufgabe samt Musterlösung.
 
 ## Merksatz
 

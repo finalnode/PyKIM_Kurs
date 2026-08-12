@@ -1,0 +1,9 @@
+format: 1
+id: oop-02-06
+title: 6 – Speichere verschiedene Unterklassen in einer Liste und rufe einheitlich
+  `update()` auf.
+tests:
+- type: loop
+- type: calls
+  names:
+  - update

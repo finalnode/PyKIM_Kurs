@@ -1,0 +1,9 @@
+format: 1
+id: 11-01
+title: 11.1 – Gib 0 bis 9 mit `while` aus.
+tests:
+- type: loop
+  kind: while
+- type: calls
+  names:
+  - print

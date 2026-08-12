@@ -96,21 +96,6 @@ print(kleinste)
 
 Ein klassischer Anwendungsfall ist eine unbekannte Anzahl von Versuchen. Die Schleife endet erst, wenn die richtige Zahl gefunden wurde.
 
-## Übungen
-
-**⭐ 11.1** Gib die Zahlen 0 bis 9 mit einer `while`-Schleife aus.
-
-**⭐ 11.2** Schreibe ein Programm, das eine Variable schrittweise verkleinert, bis sie 0 erreicht.
-
-**⭐⭐ 11.3** Fordere ganze Zahlen an, bis `"Ende"` eingegeben wird. Gib anschließend die kleinste Zahl aus.
-
-**⭐⭐ 11.4** Programmiere ein Zahlenratespiel mit Versuchszähler.
-
-**⭐⭐ 11.5** Lass KIM so lange nach rechts laufen, bis er eine bestimmte Zielfarbe erreicht.
-
-**⭐⭐⭐ 11.6** Entwirf eine zustandsabhängige Bewegung: KIM läuft solange weiter, wie ein bestimmter Nachbarzustand erfüllt ist.
-
-**⭐⭐⭐ 11.7** Modelliere eine Population mit einer sinnvollen Abbruchbedingung und begründe diese.
 
 ## Merksatz
 

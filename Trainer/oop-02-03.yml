@@ -1,0 +1,7 @@
+format: 1
+id: oop-02-03
+title: 3 – Leite `FarbPixel` von `Pixel` ab und ergänze ein Farbattribut.
+tests:
+- type: class
+  name: FarbPixel
+  base: Pixel

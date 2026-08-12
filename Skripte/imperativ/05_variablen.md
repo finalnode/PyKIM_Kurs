@@ -153,19 +153,6 @@ run()
 
 Der Abstand verändert sich nach jedem Durchlauf.
 
-## Übungen
-
-**⭐ 5.1** Erstelle die Ablauftabelle aus diesem Kapitel vollständig.
-
-**⭐ 5.2** Ersetze in einem eigenen Programm mehrere gleiche Zahlen durch eine sprechende Variable.
-
-**⭐⭐ 5.3** Schreibe ein Quadratprogramm, das nur über `seitenlaenge` verändert werden muss.
-
-**⭐⭐ 5.4** Schreibe ein Punktmuster, bei dem sich der Abstand über eine Variable nach jedem Punkt erhöht.
-
-**⭐⭐ 5.5** Berechne die Summe von 1 bis 100 mit einer Schleife und einem Akkumulator.
-
-**⭐⭐⭐ 5.6** Schreibe absichtlich ein kleines Programm mit den Variablen `a`, `b`, `c`. Benenne anschließend alle Variablen so um, dass der Zweck des Programms ohne Kommentar verständlicher wird.
 
 ## Merksatz
 

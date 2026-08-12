@@ -14,8 +14,8 @@ inhaltlich überarbeitet und mit PyKIM-Beispielen neu formuliert.
   `world.parallel()` didaktisch sicher eingeführt.
 - Turtle-Fenster, Shapes, GUI-Elemente und Spielkonzepte führen zu den
   entsprechenden Welt- und Pyxel-Konzepten.
-- Jedes Kapitel enthält Begriffe, aufbauende Beispiele, typische Fehler,
-  Übungen und einen Merksatz.
+- Jedes Kapitel enthält Begriffe, aufbauende Beispiele, typische Fehler und
+  einen Merksatz. Übungen werden ausschließlich als separate Aufgaben geführt.
 
 Die Quelldateien bleiben bewusst normales Markdown, damit Lehrkräfte Inhalte
 ohne Änderungen am Python-Code der Suite bearbeiten und ergänzen können.

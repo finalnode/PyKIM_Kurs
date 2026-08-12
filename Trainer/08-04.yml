@@ -1,0 +1,25 @@
+format: 1
+id: 08-04
+title: 8.4 – Definiere `durchschnitt(zahlen)`. Berechne den Durchschnitt einer Zahlenliste
+  ohne `sum()` und gib ihn zurück.
+tests:
+- type: function
+  name: durchschnitt
+  parameters:
+  - zahlen
+  returns: true
+- type: function-cases
+  name: durchschnitt
+  cases:
+  - args:
+    - - 2
+      - 4
+      - 6
+    expected: 4.0
+  - args:
+    - - 1
+      - 2
+      - 3
+      - 4
+    expected: 2.5
+- type: loop

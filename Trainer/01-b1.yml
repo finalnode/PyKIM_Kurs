@@ -1,0 +1,17 @@
+format: 1
+id: 01-b1
+title: B1 – Zeichne eine rote Linie von `(20, 20)` bis `(30, 20)`.
+tests:
+- type: pixels
+  paths:
+  - start:
+    - 20
+    - 20
+    end:
+    - 30
+    - 20
+    color: red
+- type: position
+  position:
+  - 30
+  - 20

@@ -1,0 +1,7 @@
+format: 1
+id: 09-05
+title: 9.5 – Prüfe mit PyKIM eine Farbe und führe abhängig davon eine Aktion aus.
+tests:
+- type: condition
+  calls:
+  - get_color

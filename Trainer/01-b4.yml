@@ -1,0 +1,6 @@
+format: 1
+id: 01-b4
+title: B4 – Erstelle ein Pixelsymbol aus genau zehn gefärbten Feldern.
+tests:
+- type: pixel-count
+  count: 10

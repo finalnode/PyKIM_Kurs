@@ -1,0 +1,6 @@
+format: 1
+id: 02-b4
+title: B4 – Zeichne vier gleiche kleine Quadrate an unterschiedlichen Positionen.
+tests:
+- type: loop
+  kind: for

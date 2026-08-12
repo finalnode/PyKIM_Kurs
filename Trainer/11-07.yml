@@ -1,0 +1,6 @@
+format: 1
+id: 11-07
+title: 11.7 – Modelliere eine Population und wähle eine sinnvolle Abbruchbedingung.
+tests:
+- type: loop
+  kind: while

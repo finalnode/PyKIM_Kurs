@@ -1,0 +1,10 @@
+format: 1
+id: 11-06
+title: 11.6 – KIM soll einem geraden Korridor folgen, solange das nächste Feld keine
+  Wandfarbe besitzt.
+tests:
+- type: loop
+  kind: while
+- type: condition
+  calls:
+  - get_color

@@ -1,0 +1,14 @@
+format: 1
+id: 07-04
+title: 7.4 – Definiere `setze_position(x, y)`, rufe darin `set_position(x, y)` auf
+  und führe das Programm aus.
+tests:
+- type: function
+  name: setze_position
+  parameters:
+  - x
+  - y
+- type: calls
+  names:
+  - set_position
+  - run

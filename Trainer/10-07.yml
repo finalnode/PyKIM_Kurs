@@ -1,0 +1,10 @@
+format: 1
+id: 10-07
+title: 10.7 – Definiere `bewegung_erlaubt(richtung)`. Eine festgelegte Farbe gilt
+  als Wand; prüfe die Farbe des Nachbarfelds mit `get_color()`.
+tests:
+- type: function
+  name: bewegung_erlaubt
+- type: condition
+  calls:
+  - get_color

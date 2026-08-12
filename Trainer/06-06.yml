@@ -1,0 +1,7 @@
+format: 1
+id: 06-06
+title: 6.6 – Eine Schleife soll eine Motivfunktion mit zunehmend größeren Argumenten
+  aufrufen.
+tests:
+- type: function
+- type: loop

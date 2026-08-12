@@ -115,19 +115,6 @@ print(flaeche)
 
 `return` beendet die Funktion an dieser Stelle und liefert einen Wert an den Aufruf zurück.
 
-## Übungen
-
-**⭐ 6.1** Schreibe `zeichne_quadrat(seitenlaenge)`.
-
-**⭐ 6.2** Schreibe `zeichne_rechteck(breite, hoehe)`.
-
-**⭐⭐ 6.3** Schreibe `punktlinie(anzahl, abstand)`.
-
-**⭐⭐ 6.4** Ergänze bei `punktlinie` einen Parameter `farbe`.
-
-**⭐⭐ 6.5** Schreibe eine Funktion `flaeche_rechteck(breite, hoehe)`, die einen Wert zurückgibt.
-
-**⭐⭐⭐ 6.6** Erstelle ein Muster, in dem eine Schleife dieselbe Funktion mit unterschiedlichen Argumenten aufruft.
 
 ## Merksatz
 

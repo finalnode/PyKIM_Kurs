@@ -1,0 +1,9 @@
+format: 1
+id: 11-05
+title: 11.5 – Lass KIM so lange laufen, bis eine Zielfarbe erreicht ist.
+tests:
+- type: loop
+  kind: while
+- type: calls
+  names:
+  - get_color

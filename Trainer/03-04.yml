@@ -1,0 +1,8 @@
+format: 1
+id: 03-04
+title: 3.4 – Schreibe `zeichne_kreuz()` und verwende die Funktion in einer Schleife.
+tests:
+- type: function
+  name: zeichne_kreuz
+- type: loop
+  kind: for

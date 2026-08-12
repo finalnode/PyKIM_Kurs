@@ -1,0 +1,13 @@
+format: 1
+id: oop-02-01
+title: 1 – Implementiere eine Klasse `Punktestand` mit `erhoehen()`, `zuruecksetzen()`
+  und `text()`.
+tests:
+- type: class
+  name: Punktestand
+- type: methods
+  class: Punktestand
+  names:
+  - erhoehen
+  - zuruecksetzen
+  - text

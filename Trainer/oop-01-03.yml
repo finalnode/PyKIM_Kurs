@@ -1,0 +1,10 @@
+format: 1
+id: oop-01-03
+title: 3 – Speichere drei Pixel in einer Liste und bewege sie mit einer Schleife.
+tests:
+- type: pixel-names
+  names:
+  - KIM
+  - MIA
+  - LEO
+- type: loop

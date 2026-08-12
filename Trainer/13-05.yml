@@ -1,0 +1,9 @@
+format: 1
+id: 13-05
+title: 13.5 – Eine festgelegte Farbe blockiert die Bewegung.
+tests:
+- type: function
+  name: update
+- type: condition
+  calls:
+  - get_color

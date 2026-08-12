@@ -1,0 +1,22 @@
+format: 1
+id: 01-b2
+title: B2 – Zeichne ein Kreuz aus fünf einzelnen cyanfarbenen Pixeln mit Mittelpunkt
+  `(40, 30)`.
+tests:
+- type: pixels
+  cells:
+  - - 40
+    - 30
+    - cyan
+  - - 39
+    - 30
+    - cyan
+  - - 41
+    - 30
+    - cyan
+  - - 40
+    - 29
+    - cyan
+  - - 40
+    - 31
+    - cyan

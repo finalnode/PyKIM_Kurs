@@ -1,0 +1,6 @@
+format: 1
+id: 02-a3
+title: A3 – Gib zusätzlich jede Quadratzahl aus.
+tests:
+- type: loop
+  kind: for

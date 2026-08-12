@@ -1,0 +1,6 @@
+format: 1
+id: 05-06
+title: 5.6 – Zähle in einem eigenen PyKIM-Programm die insgesamt geplanten Bewegungsschritte
+  in einer Variable mit.
+tests:
+- type: loop

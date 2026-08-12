@@ -1,0 +1,5 @@
+format: 1
+id: 12-03
+title: 12.3 – Stelle eine 0/1-Matrix mit zwei PyKIM-Farben dar.
+tests:
+- type: nested-loop

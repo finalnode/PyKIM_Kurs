@@ -1,0 +1,12 @@
+format: 1
+id: 07-06
+title: 7.6 – Definiere `zeichne_muster(anzahl, abstand, farbe)` und erzeuge damit
+  über eine Schleife ein PyKIM-Muster.
+tests:
+- type: function
+  name: zeichne_muster
+  parameters:
+  - anzahl
+  - abstand
+  - farbe
+- type: loop

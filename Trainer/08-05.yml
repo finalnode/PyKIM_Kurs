@@ -1,0 +1,6 @@
+format: 1
+id: 08-05
+title: 8.5 – Löse dieselbe Aufgabe einmal über Werte und einmal über Indizes. Vergleiche.
+tests:
+- type: loop
+  kind: for

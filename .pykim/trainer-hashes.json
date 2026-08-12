@@ -3,6 +3,74 @@
   "algorithm": "sha256",
   "scope": "trainer",
   "files": {
+    "Trainer/01-a1.yml": {
+      "sha256": "fe75a930ea8a8193625beda2a535e86dcb04dbc1d01a10e6f85d9c524962ca95",
+      "size": 104
+    },
+    "Trainer/01-a2.yml": {
+      "sha256": "234edb2965ca5c4d1a2793bea7a5fcc56a614fc18f454ffdac32cf8ac3ba9d35",
+      "size": 106
+    },
+    "Trainer/01-b1.yml": {
+      "sha256": "22e22ee1ee1ad7e62f63891fe731e727a4f02f82e27cb0c7900182617e364d8a",
+      "size": 234
+    },
+    "Trainer/01-b2.yml": {
+      "sha256": "f6f562013032451b651e0da2d125804269bafec9f2099f9d8ddb2c94539a2684",
+      "size": 298
+    },
+    "Trainer/01-b3.yml": {
+      "sha256": "8544758a819876a6fb6207ca66e1df2c14ea4b9f195fd8a389d7b5b99393a161",
+      "size": 173
+    },
+    "Trainer/01-b4.yml": {
+      "sha256": "a2a8864a00ea6c567b66f983b266a4c13c2ede85888781d227a44c5351e624bb",
+      "size": 133
+    },
+    "Trainer/01-c1.yml": {
+      "sha256": "c0d4a24b220504323e6b3efee595cebefd808a1973b08f55cdc98fb1926073e2",
+      "size": 112
+    },
+    "Trainer/01-d1.yml": {
+      "sha256": "822695e685854dc8c88c7a2fe889555540c117bf50aeea3010c56d152a41c983",
+      "size": 135
+    },
+    "Trainer/02-a1.yml": {
+      "sha256": "dfd365632d13638889142ae04b6515b53cf968e3ccd0fb408d1bda4c574e133b",
+      "size": 68
+    },
+    "Trainer/02-a2.yml": {
+      "sha256": "16dfa12423999f17fc6dc47a50d115f45deb46e3e29b39e7a13b1fee29534ecb",
+      "size": 108
+    },
+    "Trainer/02-a3.yml": {
+      "sha256": "c66fc6b64dc7ee5eafb89d0dc40384d4e893e28c63d87a63ece585cb74f065d8",
+      "size": 104
+    },
+    "Trainer/02-b1.yml": {
+      "sha256": "de1df4c5f074bb861256759ff4cbaae153b0296c36025a9e2e09212c83c3cd65",
+      "size": 309
+    },
+    "Trainer/02-b2.yml": {
+      "sha256": "b8af2c1f67ca86738c91a72b395d2fc2cd3b0415a0944043b42636e7f917b2a2",
+      "size": 445
+    },
+    "Trainer/02-b3.yml": {
+      "sha256": "326d6066142a4a414583f9a1ff7a18fdb8a9bb5c8c71db2bce6ac7ae495a729f",
+      "size": 458
+    },
+    "Trainer/02-b4.yml": {
+      "sha256": "82e67bad131bc9c4e1584db90a0edf6781f4e9ea10b66f1e4091163976b84e58",
+      "size": 136
+    },
+    "Trainer/02-c1.yml": {
+      "sha256": "6eae7c69a86fdacc7ac6ce1524ba775fe9bb63cf93afc2a3ddded9af14b766a1",
+      "size": 79
+    },
+    "Trainer/02-d1.yml": {
+      "sha256": "2d88a6d74d3e282d9e6215485b0c198c802173ae6d9ce02a54167adbd06bde76",
+      "size": 164
+    },
     "Trainer/02-punktlinie-8.yml": {
       "sha256": "59255a47129536e8447760b37063fcba87d97ade85c02b483938c346ea3dbcaf",
       "size": 1045
@@ -11,41 +79,385 @@
       "sha256": "b9fe61f6a5f1ba0e46c321222f87602c02eeb29e9162171af32dfdf1f1e60d04",
       "size": 1185
     },
+    "Trainer/03-01.yml": {
+      "sha256": "992f70c3cd456e87883258e3d2bb6532b20c7430e02bce35b7b113574e4e8135",
+      "size": 167
+    },
+    "Trainer/03-02.yml": {
+      "sha256": "045a647dfeaedbf16466ca3fc96f892ea50b7ca807b30723e6d43dbd9c843108",
+      "size": 261
+    },
+    "Trainer/03-03.yml": {
+      "sha256": "a6471255c064296c8bb1ffd38f74c27c67408e7454fb261b6f86c6a35039cf42",
+      "size": 177
+    },
+    "Trainer/03-04.yml": {
+      "sha256": "1c24713722b015405ed036f0203c46fa042f270456d397f208e3dec1a7f47ecb",
+      "size": 178
+    },
+    "Trainer/03-05.yml": {
+      "sha256": "23c64be48bca76c7931bf90da1b41d818aec9736f2c35d3796e437757437e614",
+      "size": 150
+    },
+    "Trainer/03-06.yml": {
+      "sha256": "aa3a82798217a11bb9b1b9553a6d6b2eb744fc826c83d52863805fb345f6fa54",
+      "size": 152
+    },
+    "Trainer/03-07.yml": {
+      "sha256": "8b6610941b50dcb663e42bdc7f180b5ab8cea49b11e33d8cb44c5c87f0793338",
+      "size": 144
+    },
     "Trainer/03-quadrat-funktion.yml": {
       "sha256": "795a25ae420fd4daf25755ae77836d45eca689352bc9831cc47db50d383d53c7",
       "size": 406
     },
     "Trainer/03-vier-quadrate.yml": {
-      "sha256": "f1f60e45a29e597178c1fab2614561af0442dc0edec1a941a723becb66047c7d",
-      "size": 1388
+      "sha256": "1ec20a890de9ed7e83a610268eeb6dcc5bb920112e1518b37cbd17f39e6b1b61",
+      "size": 1373
+    },
+    "Trainer/04-01.yml": {
+      "sha256": "8a209c130c77be6ba6210ae19f8394a72d16bb13ba71ff9cacde32b023adea07",
+      "size": 73
+    },
+    "Trainer/04-02.yml": {
+      "sha256": "b8d5a682518e8c63eb4bffd62a6c818f60ea88a64594dca9279a68e5dda0b2ca",
+      "size": 126
+    },
+    "Trainer/04-03.yml": {
+      "sha256": "28a82350e3cf063d71b6d80f833bd0340b7673f00249e281c06976dcb2519136",
+      "size": 101
+    },
+    "Trainer/04-04.yml": {
+      "sha256": "d9a24c2da7dcdd625c1a0f38fc333cfc8e038435f983667a3ae2b749d55ee8cd",
+      "size": 180
+    },
+    "Trainer/04-05.yml": {
+      "sha256": "9f5955474672470be4db23596c509fe898acbd3606372dc149d33e7aea5d28ee",
+      "size": 148
+    },
+    "Trainer/05-01.yml": {
+      "sha256": "805a39bcbcd51382923d0946dc856853eb112e9eeab0db71c8b79127ce617848",
+      "size": 77
+    },
+    "Trainer/05-02.yml": {
+      "sha256": "bae2fddc2f625bb3c19deeca9c615b8aa82e95fa04ecf213fddb2437b8d1412b",
+      "size": 95
+    },
+    "Trainer/05-03.yml": {
+      "sha256": "7ec7a20f95bf0bee4efecb581caf0205502a02ec1a27ff926283641b4700e89b",
+      "size": 252
+    },
+    "Trainer/05-04.yml": {
+      "sha256": "aef07278f96f1572295fe755eb66f5c1a07f6da32ac43ae96089883f688a4ece",
+      "size": 130
+    },
+    "Trainer/05-05.yml": {
+      "sha256": "9863140bbe254151e65f7cb267d8e46d1009ba4cf6ebf7ce36329e6f1746395b",
+      "size": 408
+    },
+    "Trainer/05-06.yml": {
+      "sha256": "02baad8ae264fff457e435cd67ecb244ea14e76bcf56fb8001e609b59b57b58d",
+      "size": 161
+    },
+    "Trainer/06-01.yml": {
+      "sha256": "58726fdc928fa4779b19766e6490a420152e763b23b4c4ae8d082717516593ab",
+      "size": 146
+    },
+    "Trainer/06-02.yml": {
+      "sha256": "6ba2c7227fca6850296f7afd8ad9dca320566eafa3f0bd7cadb6692fd1ccbae7",
+      "size": 153
+    },
+    "Trainer/06-03.yml": {
+      "sha256": "ae4b06e5c022034e36fb79a00f1c1d25998c9b34b75f095ab06da08c8b602c3f",
+      "size": 158
+    },
+    "Trainer/06-04.yml": {
+      "sha256": "60dc480c2f455812bde503d727c7ad2cdb6ddc81f6b17101d0417b74b5569260",
+      "size": 165
+    },
+    "Trainer/06-05.yml": {
+      "sha256": "b0a38afe9d8a6d9b219da1d3c2d0f5a52b678694eee8ead3eb9c90fbe853add0",
+      "size": 335
+    },
+    "Trainer/06-06.yml": {
+      "sha256": "1725afef5d906ec3b819f089820be10c044b951e43b2293e0d17dcb2d4d189a8",
+      "size": 158
+    },
+    "Trainer/06-07.yml": {
+      "sha256": "e712772cacde4677f309a452a3f89587f8927531a766cc616d140c87e4a7aa17",
+      "size": 159
+    },
+    "Trainer/07-01.yml": {
+      "sha256": "f8eaa8f18dbbf4412d6248265699d4a82d41195e81fddc59a071d720e69dfc02",
+      "size": 366
+    },
+    "Trainer/07-02.yml": {
+      "sha256": "7dd1cf2ef366536f9ba113c2178d87c77278f06d291c5a021deb2f029fe2e16a",
+      "size": 324
+    },
+    "Trainer/07-03.yml": {
+      "sha256": "8c118e072e1fdbb9aad9d060b21847bbf330ecf1f84483b09405bdb4dd62270e",
+      "size": 243
+    },
+    "Trainer/07-04.yml": {
+      "sha256": "bb38c6cfe10d90126cce1e77b1ca23af98c68909b8cf4e73bb3b93fd80f94b81",
+      "size": 257
+    },
+    "Trainer/07-05.yml": {
+      "sha256": "4e16cbe7a9bcba552ddb56db205a662abe05b871d5b88109bb6dc605e8b42ee4",
+      "size": 388
+    },
+    "Trainer/07-06.yml": {
+      "sha256": "26b97051ec313ec588f32793ba9fac86beb6be61b85cdc4aa3fe650b8f52a0d3",
+      "size": 251
+    },
+    "Trainer/08-01.yml": {
+      "sha256": "adb3dbfaf309d1cc0d846338bd36f32f0aa38ed9366fe111d81c4ee6414f1288",
+      "size": 99
+    },
+    "Trainer/08-02.yml": {
+      "sha256": "143ac8f4dae3f64836fcafecbc08d02c41f2a042031da13a21fc3415491d5318",
+      "size": 110
+    },
+    "Trainer/08-03.yml": {
+      "sha256": "abe09d717bb367bc8244ef494c3b564006e9be3c31d611e4c4ef13114c420622",
+      "size": 325
+    },
+    "Trainer/08-04.yml": {
+      "sha256": "a721e078e5e0eb9e3d6299284095b8fd06f9135b4d063c2ee744dcb2be5506b6",
+      "size": 427
+    },
+    "Trainer/08-05.yml": {
+      "sha256": "d5f0fdf3eb9328c064f4d955bcc9adcf80d4f24877479459d55b294e22f1d573",
+      "size": 147
+    },
+    "Trainer/08-06.yml": {
+      "sha256": "9a040602cf2877a32d66a8af18948c24a8d4f3468f1f204a40f1051d8f63969d",
+      "size": 139
+    },
+    "Trainer/08-07.yml": {
+      "sha256": "ce5aa9a71982115cf236c5e64d67d224c115961e422366af6f4b0d97561752a7",
+      "size": 103
     },
     "Trainer/08-rhythmus-motiv.yml": {
-      "sha256": "81e91239d7e1def26b3e6cb3fe12fb0f6728a2783c7a58b88b8dd3c5416d7457",
-      "size": 771
+      "sha256": "23bc56214bbd585fa8bede2fb906fff2c9ca9033570d8e5ca14a7706e50f980b",
+      "size": 763
     },
     "Trainer/08-tonleiter-c-dur.yml": {
       "sha256": "60494dc72ba2990935cf9ac806070d7e5c83e0a623f2127b42b265f40d65c360",
       "size": 692
     },
+    "Trainer/09-01.yml": {
+      "sha256": "0faa7dee10fb29c8400bfe4c73c2aa6c5d86598057cdad5dd4ab6f29d81bec2d",
+      "size": 109
+    },
+    "Trainer/09-02.yml": {
+      "sha256": "4d7f93183b3ccbef96021e92dec98ab458a4618e131b34ef727f8515669633e6",
+      "size": 74
+    },
+    "Trainer/09-03.yml": {
+      "sha256": "687a2267abda85c53c32ae1afb1e8049605a1a350700d1815a0c11615b030624",
+      "size": 396
+    },
+    "Trainer/09-04.yml": {
+      "sha256": "f6939fdda0d7201030b918994c437263b1b1bddcffe09650dcfcd9cb7fa4e093",
+      "size": 190
+    },
+    "Trainer/09-05.yml": {
+      "sha256": "215f34a53ef5a215ded7b6bee6246dba9caa3dc28c40fc30445839369929d5bc",
+      "size": 155
+    },
+    "Trainer/09-06.yml": {
+      "sha256": "6a637d0b878e99f91e99888a75afca7e6610b34defbb95c989cfe56cb28490d9",
+      "size": 248
+    },
     "Trainer/09-farben-melodie.yml": {
       "sha256": "5dc9f044cd47f90ba9980b0b2db27bba7f1f870c715666ab9b59ee3fdaab4133",
       "size": 1151
+    },
+    "Trainer/10-01.yml": {
+      "sha256": "a7691fb01d6329620af18fe7e23b4e99c2a4758ddf58789ccfd1d09d24ff811f",
+      "size": 101
+    },
+    "Trainer/10-02.yml": {
+      "sha256": "b20571c155dbae3375bf2caa849f9b316b1cc182f62925ea0da1e276e9870650",
+      "size": 141
+    },
+    "Trainer/10-03.yml": {
+      "sha256": "08758355ac906f13d43419de97ecaa8d1cbf8b76d0412688b854fc01cc886828",
+      "size": 208
+    },
+    "Trainer/10-04.yml": {
+      "sha256": "613b26ce8662094ef2ab4099030cb7bae6f02340a9c9e06091af90d2b03c00de",
+      "size": 133
+    },
+    "Trainer/10-05.yml": {
+      "sha256": "0afb9c27ece8ffb684f541b152a7c838b599ecd1918a4975e4ab14c847a3bd82",
+      "size": 133
+    },
+    "Trainer/10-06.yml": {
+      "sha256": "e2a71baf57a29fd5b7ab7227821f9c7999f5e6fa8fe8b3f5193d4af5da1baa78",
+      "size": 263
+    },
+    "Trainer/10-07.yml": {
+      "sha256": "c197cb8f4fabc3648eeaa5239b7ea6bac0f0de74859ba2d35c6e72d05326a696",
+      "size": 259
+    },
+    "Trainer/11-01.yml": {
+      "sha256": "b668602c855bf9ef6aa402078096da2ce0087cd458d28ed10709c1a14fe69862",
+      "size": 132
+    },
+    "Trainer/11-02.yml": {
+      "sha256": "4e5e61926a3c41f46be252f17117dde8682076319407289e2e1cefc91fe9f656",
+      "size": 116
+    },
+    "Trainer/11-03.yml": {
+      "sha256": "9907d711fb6b5ce8fdd2358c8757b0ca9dc0cd4dd80b42730fa3af00bef30690",
+      "size": 191
+    },
+    "Trainer/11-04.yml": {
+      "sha256": "acb46af519f7f1b3a89c085f320a41ffad4b8ddda34a8005661aa6d0ae77117a",
+      "size": 142
+    },
+    "Trainer/11-05.yml": {
+      "sha256": "0641f03d2fd7608b2509ca884b65b63d6ae97b1b41d1c74d263b2490c31756aa",
+      "size": 166
+    },
+    "Trainer/11-06.yml": {
+      "sha256": "7ebe4474c235150f60ca9696fa31f8b97ae83577ad86c95d2a75aa1df3e1a0d5",
+      "size": 204
+    },
+    "Trainer/11-07.yml": {
+      "sha256": "577818c8709c2f5b52a0047ceb8cbc9b3ef2c9ecbbf10815f649cf5d5201e3aa",
+      "size": 141
+    },
+    "Trainer/12-01.yml": {
+      "sha256": "b89e237dfd7699a76b120e9dbad24c6b676a465c56c1537bb83ed4d8ed932f49",
+      "size": 114
+    },
+    "Trainer/12-02.yml": {
+      "sha256": "b3dcaf49c104f04d0f3b108dbbf34b552f78b18a3a343376e81dbf19a60915b6",
+      "size": 124
+    },
+    "Trainer/12-03.yml": {
+      "sha256": "4039257d642f18ea49041d556e40bc4bc3e99628bac195c25c780e294dc7aebd",
+      "size": 113
+    },
+    "Trainer/12-04.yml": {
+      "sha256": "9e48489631c048f947f917d13555808bc1210cfe35f86069ea2aa9af45fdb4c4",
+      "size": 115
+    },
+    "Trainer/12-05.yml": {
+      "sha256": "a64ecccc55a0b0908d2ad832fb99b6666df04f271688fc917cefbae45b0fad41",
+      "size": 100
+    },
+    "Trainer/12-06.yml": {
+      "sha256": "24e82a34ccbd1f6e87ef9c52d9afb53520e76029767bb72d3b5878ec5ab4777a",
+      "size": 246
+    },
+    "Trainer/12-07.yml": {
+      "sha256": "23e57f85b952f48e64b357776b312821f88e4ad66b63d42041b6087a6b277cac",
+      "size": 145
     },
     "Trainer/12-schachbrett-8.yml": {
       "sha256": "80667904118aecb4edc0514829f7bb316c36292d7ff44c38f7c291c785309393",
       "size": 943
     },
+    "Trainer/13-01.yml": {
+      "sha256": "bfe1640309dcad3c2ad38d2728d9c5348a09099405569b93eb5f72dc2f42d907",
+      "size": 150
+    },
+    "Trainer/13-02.yml": {
+      "sha256": "47edf3ed33c961fc598ab88bde572c869037ba576e2559ab65c4f1bb180ad94b",
+      "size": 127
+    },
+    "Trainer/13-03.yml": {
+      "sha256": "4764a044b0c6296f0655e057bf96d825248d37c4ef883ce5c934bab877d476a3",
+      "size": 173
+    },
+    "Trainer/13-04.yml": {
+      "sha256": "ab46eef682459e420a584e627a2b2563e11dab8d93bfbd396837687641606858",
+      "size": 161
+    },
+    "Trainer/13-05.yml": {
+      "sha256": "27a08389a3523afaffba98a70c496c6a06060c9e6c2ca6d42f1f048d83054370",
+      "size": 163
+    },
+    "Trainer/13-06.yml": {
+      "sha256": "d6991cb67ae879e89cfb30f52e3481296bf680efe34283155dc6b4b6e421b1ee",
+      "size": 168
+    },
+    "Trainer/13-07.yml": {
+      "sha256": "a4fe00518680b0b58a1c9114b6793196550daa9616e27b07b838b34c2a9d1eb1",
+      "size": 144
+    },
     "Trainer/13-interaktive-steuerung.yml": {
       "sha256": "2a9cfa5d09bb4e31f8d4ef7cc6c7a3f23725010597e50819955f59d2f27a0514",
       "size": 1026
     },
+    "Trainer/14-projektauftrag.yml": {
+      "sha256": "f7167486158710f57214e45fa6a0643dba1ba993e59d8ebf03424d0b3ae3a09d",
+      "size": 149
+    },
     "Trainer/mehrere-pixel.yml": {
-      "sha256": "6835e97b366ddec6a6e04d050614921f0ad44fa02da727fc76dbbc0de06f0ece",
-      "size": 1908
+      "sha256": "27c10e27cdf31736e1d7dfb1b3497e9d445681b26d42ba0d4dcafacfd9251180",
+      "size": 1893
     },
     "Trainer/musik-pixel-klasse.yml": {
       "sha256": "8cda7d1b4852893c100fd82ac1b2e83e74f33686190f3e208e947aee78430081",
       "size": 874
+    },
+    "Trainer/oop-01-01.yml": {
+      "sha256": "d143704bb5cff1e4e429f5964b40c4caaa0eca537393ba204805285f71f420fb",
+      "size": 146
+    },
+    "Trainer/oop-01-02.yml": {
+      "sha256": "d0053516691e8483d1ddaf672f99b60a1d3e6c55a6aa6632f09c60aa9152902e",
+      "size": 134
+    },
+    "Trainer/oop-01-03.yml": {
+      "sha256": "01a8b7a169eedcf46c37223d716312f77da11ca0a18a648de53d156521b52718",
+      "size": 181
+    },
+    "Trainer/oop-01-04.yml": {
+      "sha256": "379fd273d58d2dee54730fe887fbf07075e2c4460029e65234b2c84ced70a0be",
+      "size": 118
+    },
+    "Trainer/oop-01-05.yml": {
+      "sha256": "2520c20c9cc35f649ea49581b76afaa2b75a30bea98d5ce8eb509ee2102e3112",
+      "size": 215
+    },
+    "Trainer/oop-01-06.yml": {
+      "sha256": "53ed5ad0604b20a199e71fb6dbfa212ff375230d6ee255472778f0eed07854ce",
+      "size": 155
+    },
+    "Trainer/oop-02-01.yml": {
+      "sha256": "d6acf8c187c20fe080b15e8a2f18129bc36af3784a7482615aa3e2ae13856b75",
+      "size": 256
+    },
+    "Trainer/oop-02-02.yml": {
+      "sha256": "2f60bccee8920cf102f107911dd27adbf8030a18eb9e1eb097d65c2320aee556",
+      "size": 204
+    },
+    "Trainer/oop-02-03.yml": {
+      "sha256": "71fd831df465a5684e930c8610f015888718cfc09cc0acf36c8498f619eebbf8",
+      "size": 154
+    },
+    "Trainer/oop-02-04.yml": {
+      "sha256": "0762699acf573793eb91f44ea477b94b8c381a88272003259349e00c6e287f5c",
+      "size": 138
+    },
+    "Trainer/oop-02-05.yml": {
+      "sha256": "8b6d656695ae0cf2794c8c804225b054d5c7a49330b0f2dada412ea6faa2adad",
+      "size": 235
+    },
+    "Trainer/oop-02-06.yml": {
+      "sha256": "3ef5c8095e4761a6be4e46e998d0187d2d618b83e1c525a42bb882dc2671f3c2",
+      "size": 181
+    },
+    "Trainer/oop-02-07.yml": {
+      "sha256": "b779df29b5e7eb0ece11a85066edd86b17533df434e242bd549cf5ea26c27826",
+      "size": 154
     }
   }
 }

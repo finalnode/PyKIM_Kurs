@@ -1,0 +1,10 @@
+format: 1
+id: oop-02-02
+title: 2 – Erzeuge zwei unabhängige Punktestände und zeige, dass ihre Werte getrennt
+  bleiben.
+tests:
+- type: class
+  name: Punktestand
+- type: calls
+  names:
+  - Punktestand

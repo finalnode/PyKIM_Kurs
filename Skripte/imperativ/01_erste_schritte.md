@@ -174,19 +174,6 @@ Ohne `run()` wird die vorbereitete Pixelwelt in einem normalen Zeichenprogramm n
 
 Die Welt ist 160 × 120 Pixel groß. Eine Bewegung außerhalb der Welt erzeugt einen Fehler. Später lernst du, Bewegungen mit Bedingungen abzusichern.
 
-## Übungen
-
-**⭐ 1.1** Setze KIM auf `(20, 20)` und zeichne eine zehn Pixel lange rote Linie nach rechts.
-
-**⭐ 1.2** Zeichne ein Kreuz aus fünf einzelnen cyanfarbenen Punkten. Der Mittelpunkt soll bei `(40, 30)` liegen.
-
-**⭐ 1.3** Male drei verschiedenfarbige Punkte an `(10, 10)`, `(20, 10)` und `(30, 10)`.
-
-**⭐⭐ 1.4** Zeichne zwei getrennte Linien. Zwischen beiden Linien dürfen keine Pixel gefärbt werden.
-
-**⭐⭐ 1.5** Entwirf einen einfachen Buchstaben oder ein kleines Pixelsymbol. Verwende nur Bewegungs- und Malbefehle.
-
-**⭐⭐⭐ 1.6** Entwirf selbst eine kleine Zielgrafik für eine andere Person. Notiere nur das Ziel, nicht den Lösungsweg.
 
 ## Merksatz
 

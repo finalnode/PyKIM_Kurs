@@ -1,0 +1,11 @@
+format: 1
+id: 11-03
+title: 11.3 – Fordere Zahlen an, bis `"Ende"` eingegeben wird. Gib die kleinste Zahl
+  aus.
+tests:
+- type: loop
+  kind: while
+- type: calls
+  names:
+  - input
+  - print

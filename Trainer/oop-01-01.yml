@@ -1,0 +1,8 @@
+format: 1
+id: oop-01-01
+title: 1 – Erzeuge zwei benannte Pixel an verschiedenen Positionen.
+tests:
+- type: pixel-names
+  names:
+  - KIM
+  - MIA

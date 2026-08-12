@@ -1,0 +1,5 @@
+format: 1
+id: 10-05
+title: 10.5 – Reagiere mit `if/elif/else` unterschiedlich auf mindestens drei Farben.
+tests:
+- type: condition

@@ -86,26 +86,6 @@ pyxel.pset(20, 20, 9)
 
 Die technische Schreibweise ändert sich. Die Konzepte – Zustand, Update, Draw, Koordinaten und Eingaben – bleiben erhalten.
 
-## Abschlussauftrag
-
-Entwickle ein eigenes kleines Projekt.
-
-Mindestanforderungen:
-
-- mindestens eine selbst definierte Funktion,
-- mindestens eine Schleife,
-- mindestens eine Verzweigung,
-- sinnvolle Variablen oder Datenstrukturen,
-- nachvollziehbare Projekt-README,
-- Projektjournal mit mindestens drei Zwischenständen.
-
-Für anspruchsvollere Projekte:
-
-- 2D-Liste,
-- interaktive Steuerung,
-- eigene kleine Algorithmik,
-- Pyxel-Ressourcen,
-- automatisierte Wegesuche oder andere Algorithmen.
 
 ## Merksatz
 

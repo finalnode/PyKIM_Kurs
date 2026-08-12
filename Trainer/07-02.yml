@@ -1,0 +1,19 @@
+format: 1
+id: 07-02
+title: 7.2 – Definiere `quadrat(zahl)` und gib das Quadrat der übergebenen Zahl mit
+  `return` zurück.
+tests:
+- type: function
+  name: quadrat
+  parameters:
+  - zahl
+  returns: true
+- type: function-cases
+  name: quadrat
+  cases:
+  - args:
+    - 4
+    expected: 16
+  - args:
+    - -3
+    expected: 9
