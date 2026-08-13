@@ -311,6 +311,10 @@
       "sha256": "c197cb8f4fabc3648eeaa5239b7ea6bac0f0de74859ba2d35c6e72d05326a696",
       "size": 259
     },
+    "Trainer/10-hindernisse-erkennen.yml": {
+      "sha256": "4d73290e07a74bf6860fc244c25b1ce1baf7a5f4a12305a1257177a8574a343f",
+      "size": 1013
+    },
     "Trainer/11-01.yml": {
       "sha256": "b668602c855bf9ef6aa402078096da2ce0087cd458d28ed10709c1a14fe69862",
       "size": 132

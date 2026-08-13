@@ -1,0 +1,29 @@
+format: 1
+id: 10-hindernisse-erkennen
+title: Praxischeck 10 – Den freien Ausgang finden
+tests:
+- type: position
+  position:
+  - 19
+  - 20
+  success: KIM hat den einzigen freien Ausgang erreicht.
+  failure: KIM steht noch nicht links vom Startfeld bei (19, 20).
+  hint: Drei Nachbarfelder sind blockiert; bewege KIM genau einen Schritt in die freie Richtung.
+- type: calls
+  names:
+  - set_background
+  - pset
+  - set_obstacle
+  - get_obstacles
+  - run
+  success: Du richtest die Welt ein und verwendest den Hindernissensor.
+  failure: Mindestens ein benötigter Aufruf für Welt, Wände, Sensor oder Trainer fehlt.
+  hint: Verwende world.set_background(), world.pset(), world.set_obstacle(), get_obstacles() und run().
+- type: condition
+  calls:
+  - get_obstacles
+  success: Eine Bedingung wertet den Hindernissensor aus.
+  failure: Eine if-Bedingung mit get_obstacles() wurde noch nicht erkannt.
+  hint: Prüfe mit if, ob eine Richtung nicht in get_obstacles() enthalten ist.
+optimization:
+  optimal_lines: 16
