@@ -1,0 +1,39 @@
+format: 1
+id: 10-rote-pixel-sammeln
+title: Praxischeck 10 – Alle roten Pixel einsammeln
+world:
+  background: light_blue
+  start: [10, 20]
+  cells:
+  - [12, 20, red]
+  - [15, 20, red]
+  - [19, 20, red]
+tests:
+- type: color-count
+  color: red
+  count: 0
+  success: Alle roten Pixel wurden eingesammelt.
+  failure: Auf dem Spielfeld liegen noch rote Pixel.
+  hint: Sammle jedes rote Feld mit collect() ein.
+- type: position
+  position: [19, 20]
+  success: KIM steht auf der Position des letzten Sammelobjekts.
+  failure: KIM steht noch nicht beim letzten roten Pixel auf (19, 20).
+  hint: Bewege KIM schrittweise nach rechts, bis keine roten Pixel mehr übrig sind.
+- type: loop
+  kind: while
+  success: Du sammelst mit einer while-Schleife.
+  failure: Eine while-Schleife wurde noch nicht erkannt.
+  hint: Wiederhole die Suche, solange items_left("red") wahr ist.
+- type: condition
+  calls: [get_color]
+  success: Du prüfst die Feldfarbe vor dem Einsammeln.
+  failure: Eine if-Bedingung mit get_color() fehlt noch.
+  hint: Prüfe, ob get_color() den Wert "red" liefert.
+- type: calls
+  names: [prepare, items_left, collect, run]
+  success: Spielfeld, Sammelsensor und Trainer werden korrekt verwendet.
+  failure: Mindestens ein benötigter Aufruf fehlt.
+  hint: Behalte prepare() und run() aus dem Starter und verwende items_left() sowie collect().
+optimization:
+  optimal_lines: 11

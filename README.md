@@ -16,6 +16,28 @@ speicherbares Antwortfeld. Trainer mit `tests` prüfen die zugehörige
 Programmieraufgabe automatisch. Die alten gebündelten Aufgabenblätter liegen als
 ignoriertes Backup unter `Aufgaben/_backup/aufgabenblaetter/`.
 
+Programmieraufgaben können ein vorbereitetes Spielfeld sicher in der
+Trainerdatei beschreiben. Der generierte Schülerstarter lädt es mit
+`prepare("aufgaben-id")`; Lernende schreiben nur den eigentlichen Algorithmus:
+
+```yaml
+world:
+  background: light_blue
+  start: [10, 20]
+  cells:
+    - [12, 20, red]
+    - [15, 20, red]
+  obstacles: [brown]
+tests:
+  - type: color-count
+    color: red
+    count: 0
+```
+
+Im `world`-Abschnitt sind ausschließlich Hintergrund, Startposition,
+Farbfelder und Hindernisfarben erlaubt. Ausführbarer Python-Code ist dort
+nicht zulässig.
+
 Zusätzliche interaktive Formate:
 
 - `mode: matching` erzeugt eine Zuordnungsaufgabe aus `pairs`.

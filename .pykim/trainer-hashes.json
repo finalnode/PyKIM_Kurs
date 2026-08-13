@@ -315,6 +315,10 @@
       "sha256": "4d73290e07a74bf6860fc244c25b1ce1baf7a5f4a12305a1257177a8574a343f",
       "size": 1013
     },
+    "Trainer/10-rote-pixel-sammeln.yml": {
+      "sha256": "2b53de5e39c8e542abe2961818f78f4554c6c54ec10ad7a0e58cc53a6f658509",
+      "size": 1384
+    },
     "Trainer/11-01.yml": {
       "sha256": "b668602c855bf9ef6aa402078096da2ce0087cd458d28ed10709c1a14fe69862",
       "size": 132

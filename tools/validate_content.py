@@ -14,7 +14,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_TESTS = {
     "pixels", "no-extra-pixels", "pixel-count", "square", "position",
-    "positions", "pixel-names", "visibility", "audio", "loop",
+    "positions", "pixel-names", "visibility", "audio", "loop", "color-count",
     "nested-loop", "parallel", "condition", "function", "function-cases", "calls",
     "class", "methods", "super-init",
 }
